@@ -26,3 +26,13 @@ logs/*.log
 results/**/*.minimap2.log
 results/**/*.kraken2.log
 results/**/*.stderr
+# Assembly working files: host-depletion reference, assembler graphs and
+# intermediate FASTAs. All regenerable; the contigs and the geNomad/CheckV/
+# DIAMOND summaries that matter are tracked.
+results/assembly/**/hostdepl.fna
+results/assembly/**/nonhost_*.fq.gz
+results/assembly/**/rnaspades/K*/
+results/assembly/**/rnaspades/tmp/
+results/assembly/**/megahit/intermediate_contigs/
+results/assembly/**/genomad/**/*_proteins.faa
+results/assembly/**/genomad/**/*_genes.tsv
