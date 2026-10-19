@@ -1,0 +1,131 @@
+ 99.66	38187855	38187855	0	0	U	0	unclassified
+  0.34	128504	488	10029763	112414	R	1	root
+  0.30	115188	55219	9788673	111646	R1	131567	  cellular organisms
+  0.15	58593	5171	7158790	84452	R2	2759	    Eukaryota
+  0.14	53422	17792	6744040	83045	R3	33154	      Opisthokonta
+  0.09	35623	0	5925288	79786	K	33208	        Metazoa
+  0.09	35623	0	5925288	79786	K1	6072	          Eumetazoa
+  0.09	35623	0	5925288	79786	K2	33213	            Bilateria
+  0.09	35623	0	5925288	79786	K3	33511	              Deuterostomia
+  0.09	35623	0	5925288	79786	P	7711	                Chordata
+  0.09	35623	0	5925288	79786	P1	89593	                  Craniata
+  0.09	35623	0	5925288	79786	P2	7742	                    Vertebrata
+  0.09	35623	0	5925288	79786	P3	7776	                      Gnathostomata
+  0.09	35623	0	5925288	79786	P4	117570	                        Teleostomi
+  0.09	35623	0	5925288	79786	P5	117571	                          Euteleostomi
+  0.09	35623	0	5925288	79786	P6	8287	                            Sarcopterygii
+  0.09	35623	0	5925288	79786	P7	1338369	                              Dipnotetrapodomorpha
+  0.09	35623	0	5925288	79786	P8	32523	                                Tetrapoda
+  0.09	35623	0	5925288	79786	P9	32524	                                  Amniota
+  0.09	35623	0	5925288	79786	C	40674	                                    Mammalia
+  0.09	35623	0	5925288	79786	C1	32525	                                      Theria
+  0.09	35623	0	5925288	79786	C2	9347	                                        Eutheria
+  0.09	35623	0	5925288	79786	C3	1437010	                                          Boreoeutheria
+  0.09	35623	0	5925288	79786	C4	314146	                                            Euarchontoglires
+  0.09	35623	0	5925288	79786	O	9443	                                              Primates
+  0.09	35623	0	5925288	79786	O1	376913	                                                Haplorrhini
+  0.09	35623	0	5925288	79786	O2	314293	                                                  Simiiformes
+  0.09	35623	0	5925288	79786	O3	9526	                                                    Catarrhini
+  0.09	35623	0	5925288	79786	O4	314295	                                                      Hominoidea
+  0.09	35623	0	5925288	79786	F	9604	                                                        Hominidae
+  0.09	35623	0	5925288	79786	F1	207598	                                                          Homininae
+  0.09	35623	0	5925288	79786	G	9605	                                                            Homo
+  0.09	35623	35623	5925288	79786	S	9606	                                                              Homo sapiens
+  0.00	7	0	681730	3009	K	4751	        Fungi
+  0.00	7	3	677695	2892	K1	451864	          Dikarya
+  0.00	4	0	455590	2093	P	4890	            Ascomycota
+  0.00	4	2	407749	2060	P1	716545	              saccharomyceta
+  0.00	2	0	341243	1497	P2	147538	                Pezizomycotina
+  0.00	2	0	341243	1497	P3	716546	                  leotiomyceta
+  0.00	1	0	17433	177	P4	715962	                    dothideomyceta
+  0.00	1	0	17433	177	C	147541	                      Dothideomycetes
+  0.00	1	0	5380	82	C1	451867	                        Dothideomycetidae
+  0.00	1	0	5380	82	O	2726947	                          Mycosphaerellales
+  0.00	1	1	5380	82	F	93133	                            Mycosphaerellaceae
+  0.00	1	0	168925	995	P4	715989	                    sordariomyceta
+  0.00	1	1	132672	959	C	147550	                      Sordariomycetes
+  0.00	1376	711	1303839	27046	R2	2	    Bacteria
+  0.00	635	58	654772	13891	K	3379134	      Pseudomonadati
+  0.00	553	438	378294	9979	P	1224	        Pseudomonadota
+  0.00	101	42	156642	4949	C	1236	          Gammaproteobacteria
+  0.00	52	0	35199	1604	O	72274	            Pseudomonadales
+  0.00	52	0	29819	1555	F	135621	              Pseudomonadaceae
+  0.00	52	49	25286	1388	G	286	                Pseudomonas
+  0.00	3	1	7275	372	G1	196821	                  unclassified Pseudomonas
+  0.00	2	2	108	84	S	3003351	                    Pseudomonas sp. GXZC
+  0.00	5	2	19628	984	O	91347	            Enterobacterales
+  0.00	3	2	6395	470	F	543	              Enterobacteriaceae
+  0.00	1	1	559	103	G	547	                Enterobacter
+  0.00	1	0	19132	454	O	135614	            Lysobacterales
+  0.00	1	0	17503	385	F	32033	              Lysobacteraceae
+  0.00	1	0	2174	104	G	40323	                Stenotrophomonas
+  0.00	1	0	993	42	G1	995085	                  Stenotrophomonas maltophilia group
+  0.00	1	1	562	34	S	40324	                    Stenotrophomonas maltophilia
+  0.00	1	0	3245	241	O	2887326	            Moraxellales
+  0.00	1	0	3245	241	F	468	              Moraxellaceae
+  0.00	1	1	2034	189	G	469	                Acinetobacter
+  0.00	12	3	47590	1893	C	28216	          Betaproteobacteria
+  0.00	9	3	39058	1568	O	80840	            Burkholderiales
+  0.00	6	1	5836	268	F	75682	              Oxalobacteraceae
+  0.00	5	4	802	98	G	963	                Herbaspirillum
+  0.00	1	1	221	26	S	863372	                  Herbaspirillum huttiense
+  0.00	2	2	141716	2807	C	28211	          Alphaproteobacteria
+  0.00	24	0	80684	2297	K1	1783270	        FCB group
+  0.00	24	0	80387	2279	K2	68336	          Bacteroidota/Chlorobiota group
+  0.00	24	14	79224	2239	P	976	            Bacteroidota
+  0.00	9	0	34884	480	C	768503	              Cytophagia
+  0.00	9	3	34884	480	O	768507	                Cytophagales
+  0.00	5	4	16705	189	F	1853232	                  Hymenobacteraceae
+  0.00	1	1	16302	141	G	89966	                    Hymenobacter
+  0.00	1	0	334	68	F	89373	                  Cytophagaceae
+  0.00	1	1	331	66	G	107	                    Spirosoma
+  0.00	1	0	3984	140	C	1853228	              Chitinophagia
+  0.00	1	0	3984	140	O	1853229	                Chitinophagales
+  0.00	1	1	3984	140	F	563835	                  Chitinophagaceae
+  0.00	30	0	544784	12054	K	1783272	      Bacillati
+  0.00	29	0	324583	7972	P	201174	        Actinomycetota
+  0.00	29	2	319488	7794	C	1760	          Actinomycetes
+  0.00	18	0	120884	3531	O	85011	            Kitasatosporales
+  0.00	18	0	120884	3531	F	2062	              Streptomycetaceae
+  0.00	18	0	113346	3255	G	1883	                Streptomyces
+  0.00	17	0	1389	63	G1	2838335	                  Streptomyces aurantiacus group
+  0.00	17	17	1045	29	S	58343	                    Streptomyces canus
+  0.00	1	0	54671	1624	G1	2593676	                  unclassified Streptomyces
+  0.00	1	1	17	1	S	2975644	                    Streptomyces sp. NBC_00079
+  0.00	8	0	37583	1147	O	85006	            Micrococcales
+  0.00	8	0	6582	290	F	1268	              Micrococcaceae
+  0.00	8	0	3648	116	G	1663	                Arthrobacter
+  0.00	8	0	1887	77	G1	235627	                  unclassified Arthrobacter
+  0.00	8	8	647	4	S	2651199	                    Arthrobacter sp. CDRTa11
+  0.00	1	0	14322	342	O	85009	            Propionibacteriales
+  0.00	1	0	3934	91	F	31957	              Propionibacteriaceae
+  0.00	1	0	46	24	G	1912216	                Cutibacterium
+  0.00	1	1	20	20	S	1747	                  Cutibacterium acnes
+  0.00	1	0	191798	3456	P	1239	        Bacillota
+  0.00	1	0	157749	2293	C	91061	          Bacilli
+  0.00	1	0	139977	1798	O	1385	            Bacillales
+  0.00	1	0	89389	181	F	90964	              Staphylococcaceae
+  0.00	1	0	89222	151	G	1279	                Staphylococcus
+  0.00	1	1	86892	29	S	1280	                  Staphylococcus aureus
+  0.03	12828	0	226508	836	R1	10239	  Viruses
+  0.03	12828	0	215859	661	R2	2559587	    Riboviria
+  0.03	12828	0	215165	634	K	2732397	      Pararnavirae
+  0.03	12828	0	215165	634	P	2732409	        Artverviricota
+  0.03	12828	0	215165	634	C	2732514	          Revtraviricetes
+  0.03	12828	0	215165	634	O	2169561	            Ortervirales
+  0.03	12828	1589	215165	634	F	11632	              Retroviridae
+  0.02	9217	0	164656	180	F1	35276	                unclassified Retroviridae
+  0.02	9217	0	164656	180	F2	206036	                  Avian retroviruses
+  0.02	9217	9217	164656	180	S	93465	                    Avian endogenous retrovirus EAV-HP
+  0.01	2022	0	35086	434	F1	327045	                Orthoretrovirinae
+  0.01	2022	167	35082	432	G	153057	                  Alpharetrovirus
+  0.00	1323	861	19895	65	G1	353825	                    unclassified Alpharetrovirus
+  0.00	462	462	9900	31	S	11867	                      Avian myelocytomatosis virus
+  0.00	226	226	3302	16	S	11878	                    Avian sarcoma virus CT10
+  0.00	94	94	2020	63	S	11884	                    Y73 sarcoma virus
+  0.00	73	73	1278	71	S	354090	                    UR2 sarcoma virus
+  0.00	68	68	1408	33	S	11866	                    Avian myeloblastosis virus
+  0.00	64	64	998	90	S	11885	                    Fujinami sarcoma virus
+  0.00	7	0	4153	30	S	11864	                    Avian leukosis virus
+  0.00	4	4	4131	22	S1	11946	                      Avian leukemia virus
+  0.00	3	3	22	8	S1	363745	                      Avian leukosis virus - RSA

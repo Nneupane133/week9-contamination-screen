@@ -67,9 +67,14 @@ build_combined () {
   if [ -s "$COMB" ]; then echo "  combined reference already built: $COMB"; return; fi
   echo "[$(date +%T)] building combined reference for $SAMP"
   : > "$COMB"
-  while IFS=$'\t' read -r name role taxid url only; do
+  while IFS=$'\t' read -r name role taxid source id restrict; do
     case "$name" in ''|'#'*) continue;; esac
-    [ -n "${only:-}" ] && [ "$only" != "both" ] && [ "$only" != "$SAMP" ] && continue
+    # restrict: which readset this reference piece belongs in. Written as an
+    # explicit if, not a && chain -- under set -e a failing && chain would end
+    # the script rather than skip the row.
+    if [ -n "${restrict:-}" ] && [ "$restrict" != "both" ] && [ "$restrict" != "$SAMP" ]; then
+      continue
+    fi
     local f
     if   [ -s "$REFDIR/host/${name}.fna.gz" ];       then f=$REFDIR/host/${name}.fna.gz
     elif [ -s "$REFDIR/candidates/${name}.fna.gz" ]; then f=$REFDIR/candidates/${name}.fna.gz
@@ -88,12 +93,20 @@ map_one () {
   local BAM=$OUT/${SAMP}.sorted.bam
   build_combined "$SAMP"
 
+  # Build the minimap2 index ONCE and cache it: the combined reference is ~4 Gb
+  # and the test-level and full-level runs would otherwise rebuild it twice.
+  # -I 12G forces a SINGLE-PART index. With a multi-part index minimap2 maps
+  # against each part independently and MAPQ is computed within a part, which
+  # silently destroys the competitive comparison this whole design rests on.
+  local MMI=$REFDIR/combined/${SAMP}.sr.mmi
+  if [ ! -s "$MMI" ]; then
+    echo "[$(date +%T)] building minimap2 index for $SAMP (single part, -I 12G)"
+    minimap2 -x sr -t "$THREADS" -I 12G -d "$MMI" "$COMB" 2>> "$OUT/${SAMP}.index.log"
+  fi
+
   if [ ! -s "$BAM" ]; then
-    echo "[$(date +%T)] minimap2 $SAMP -> $(basename "$COMB")"
-    # -I 12G forces a SINGLE-PART index. With a multi-part index minimap2 maps
-    # against each part independently and MAPQ is computed within a part, which
-    # silently destroys the competitive comparison this whole design rests on.
-    minimap2 -ax sr -t "$THREADS" -I 12G --secondary=no "$COMB" "$R1" "$R2" \
+    echo "[$(date +%T)] minimap2 $SAMP -> $(basename "$MMI")"
+    minimap2 -ax sr -t "$THREADS" -I 12G --secondary=no "$MMI" "$R1" "$R2" \
       2> "$OUT/${SAMP}.minimap2.log" \
       | samtools sort -@ 8 -m 2G -o "$BAM" -
     samtools index -@ 8 "$BAM"

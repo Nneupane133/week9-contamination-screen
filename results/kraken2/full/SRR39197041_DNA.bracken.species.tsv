@@ -1,0 +1,29 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Homo sapiens	9606	S	62148	62037	124185	0.27746
+Lodderomyces beijingensis	1775926	S	1374	256	1630	0.00364
+Pichia kudriavzevii	4909	S	22	1	23	0.00005
+Colletotrichum destructivum	34406	S	41	4	45	0.00010
+Neurospora crassa	5141	S	16	3	19	0.00004
+Plasmodium relictum	85471	S	10316	4317	14633	0.03269
+Babesia bigemina	5866	S	14	355	369	0.00082
+Leishmania donovani	5661	S	128	1678	1806	0.00404
+Leishmania infantum	5671	S	56	718	774	0.00173
+Leishmania major	5664	S	778	729	1507	0.00337
+Dictyostelium discoideum	44689	S	10	3	13	0.00003
+Acinetobacter schindleri	108981	S	19	1634	1653	0.00369
+Pseudomonas aeruginosa	287	S	229	253212	253441	0.56626
+Pectobacterium carotovorum	554	S	14	701	715	0.00160
+Halomonas sp. PA16-9	2576841	S	19	22	41	0.00009
+Variovorax sp. PBL-E5	434014	S	21	121	142	0.00032
+Pandoraea vervacti	656178	S	11	5	16	0.00004
+Aequorivita ciconiae	2494375	S	13	49	62	0.00014
+Ignavibacterium sp.	2651167	S	15	3	18	0.00004
+Dissulfurispira thermophila	2715679	S	77	15	92	0.00021
+Treponema bryantii	163	S	19	5	24	0.00005
+Paenibacillus sp. PK4536	3024576	S	22	51	73	0.00016
+Faecalibacillus intestinalis	1982626	S	12	575	587	0.00131
+Streptomyces sp. GQFP	2907545	S	76	50	126	0.00028
+Cutibacterium acnes	1747	S	10	7	17	0.00004
+Microcystis viridis	44822	S	25	660	685	0.00153
+Harbinvirus semele	2734052	S	675	44178	44853	0.10021
+Cell fusing agent virus	31658	S	10	0	10	0.00002

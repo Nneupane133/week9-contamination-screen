@@ -1,0 +1,41 @@
+# Reference panel for competitive mapping.
+# name	role	taxid	source	id	restrict
+#
+# role      host | candidate | decoy
+# source    assembly (NCBI datasets) | nuccore (efetch) | url | local
+# restrict  which readset this piece belongs in: both | BYJ10_RNA | SRR39197041_DNA
+#
+# Candidates are the taxa raised by sendsketch (step 1) and/or Kraken2 (step 2)
+# at full depth. Decoys are fixed and are there to absorb reads that would
+# otherwise be forced onto a candidate -- see scripts/03_fetch_candidates.sh.
+#
+# --- hosts (already downloaded by 00_fetch_host_refs.sh) -------------------
+Gallus_gallus_GRCg7b	host	9031	local	-	BYJ10_RNA
+Aedes_aegypti_AaegL5	host	7159	local	-	SRR39197041_DNA
+# --- fixed decoy panel, in BOTH references --------------------------------
+Homo_sapiens	decoy	9606	assembly	GCF_009914755.1	both
+Escherichia_coli_K12	decoy	511145	assembly	GCF_000005845.2	both
+Saccharomyces_cerevisiae	decoy	559292	assembly	GCF_000146045.2	both
+PhiX174	decoy	10847	nuccore	NC_001422.1	both
+UniVec_Core	decoy	0	url	https://ftp.ncbi.nlm.nih.gov/pub/UniVec/UniVec_Core	both
+# --- chicken RNA-seq candidates -------------------------------------------
+EAV_HP	candidate	93465	nuccore	NC_005947.1	BYJ10_RNA
+Avian_leukosis_virus	candidate	11864	nuccore	NC_015116.1,NC_001408.1	BYJ10_RNA
+Rous_sarcoma_virus	candidate	11886	nuccore	NC_001407.1	BYJ10_RNA
+Y73_sarcoma_virus	candidate	11884	nuccore	NC_008094.1	BYJ10_RNA
+Avian_orthoreovirus	candidate	38170	nuccore	NC_015126.1,NC_015127.1,NC_015128.1,NC_015129.1,NC_015130.1,NC_015131.1,NC_015132.1,NC_015133.1,NC_015134.1,NC_015135.1	BYJ10_RNA
+Chlamydia_psittaci	candidate	83554	assembly	GCF_000204255.1	BYJ10_RNA
+Chlamydia_abortus	candidate	83555	assembly	GCF_040235295.1	BYJ10_RNA
+Aeromonas_hydrophila	candidate	644	assembly	GCF_000014805.1	BYJ10_RNA
+# --- Aedes aegypti WGS candidates -----------------------------------------
+Plasmodium_relictum	candidate	85471	assembly	GCF_900005765.1	SRR39197041_DNA
+Leishmania_major	candidate	5664	assembly	GCF_000002725.2	SRR39197041_DNA
+Wolbachia_pipientis	candidate	955	assembly	GCF_007971685.1	SRR39197041_DNA
+Pseudomonas_aeruginosa	candidate	287	assembly	GCF_000006765.1	SRR39197041_DNA
+Acinetobacter_schindleri	candidate	108981	assembly	GCF_010918895.1	SRR39197041_DNA
+Achromobacter_xylosoxidans	candidate	85698	assembly	GCF_016728825.1	SRR39197041_DNA
+Aspergillus_flavus	candidate	5059	assembly	GCF_009017415.1	SRR39197041_DNA
+Lodderomyces_elongisporus	candidate	36914	assembly	GCF_030384665.1	SRR39197041_DNA
+Lactobacillus_phage_Semele	candidate	2079433	nuccore	NC_047926.1	SRR39197041_DNA
+Cell_fusing_agent_virus	candidate	31658	nuccore	NC_001564.2	SRR39197041_DNA
+Phasi_Charoen_like_virus	candidate	1608083	nuccore	NC_038261.1,NC_038262.1,NC_038263.1	SRR39197041_DNA

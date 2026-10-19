@@ -23,25 +23,58 @@
 #   whichever candidate happened to look closest, and we would misattribute the
 #   source even when the detection itself is real.
 #
-# Manifest: metadata/candidates.tsv, 4 tab-separated columns
-#   name<TAB>role<TAB>taxid<TAB>url
-#   role = host | candidate | decoy
+# Manifest: metadata/candidates.tsv, tab separated
+#   name  role  taxid  source  id  restrict
+#   source = assembly (NCBI datasets) | nuccore (efetch) | url | local
 # ---------------------------------------------------------------------------
 set -euo pipefail
 WK=/home/aubnxn001/week9
 MAN=$WK/metadata/candidates.tsv
 REF=$WK/references/candidates
+TMP=$(mktemp -d)
+trap 'rm -rf "$TMP"' EXIT
 mkdir -p "$REF"
+set +e; source /apps/profiles/modules_asax.sh.dyn >/dev/null 2>&1
+module load ncbi-datasets-cli seqkit >/dev/null 2>&1; set -e
+EU=https://eutils.ncbi.nlm.nih.gov/entrez/eutils
 
 [ -f "$MAN" ] || { echo "ERROR: manifest $MAN not found" >&2; exit 1; }
 
-while IFS=$'\t' read -r name role taxid url; do
+while IFS=$'\t' read -r name role taxid source id restrict; do
   case "$name" in ''|'#'*) continue;; esac
+  [ "$source" = local ] && continue              # hosts are fetched by 00_fetch_host_refs.sh
   dest="$REF/${name}.fna.gz"
   if [ -s "$dest" ]; then echo "  have $name"; continue; fi
-  echo "[$(date +%T)] fetching $name ($role)"
-  curl -fL --no-progress-meter -o "$dest" "$url" || { echo "  FAILED $name"; rm -f "$dest"; continue; }
-  # UniVec ships as plain fasta; normalise everything to .fna.gz
-  if ! gzip -t "$dest" 2>/dev/null; then mv "$dest" "${dest%.gz}"; gzip -f "${dest%.gz}"; fi
+  echo "[$(date +%T)] fetching $name  ($role, $source $id)"
+  case "$source" in
+    assembly)
+      # NCBI datasets gives a checksum-verified assembly and resolves the
+      # versioned FTP path for us, which hand-built URLs get wrong constantly.
+      ( cd "$TMP" && rm -rf ds && \
+        datasets download genome accession "$id" --include genome --filename ds.zip \
+          >/dev/null 2>&1 && unzip -q -o ds.zip -d ds ) || { echo "  FAILED $name"; continue; }
+      cat "$TMP"/ds/ncbi_dataset/data/"$id"/*.fna 2>/dev/null | gzip > "$dest" || true
+      ;;
+    nuccore)
+      # One or more comma-separated accessions (segmented viruses need several).
+      : > "$TMP/$name.fa"
+      ok=1
+      for acc in ${id//,/ }; do
+        curl -fsSg "$EU/efetch.fcgi?db=nuccore&id=${acc}&rettype=fasta&retmode=text" \
+          >> "$TMP/$name.fa" || ok=0
+        sleep 0.4
+      done
+      [ "$ok" = 1 ] && [ -s "$TMP/$name.fa" ] && gzip -c "$TMP/$name.fa" > "$dest"
+      ;;
+    url)
+      curl -fsSL -o "$TMP/$name.raw" "$id" || { echo "  FAILED $name"; continue; }
+      if gzip -t "$TMP/$name.raw" 2>/dev/null; then cp "$TMP/$name.raw" "$dest"
+      else gzip -c "$TMP/$name.raw" > "$dest"; fi
+      ;;
+  esac
+  if [ -s "$dest" ]; then echo "  ok  $(zcat "$dest" | grep -c '^>') sequences"
+  else echo "  FAILED $name"; rm -f "$dest"; fi
 done < "$MAN"
-echo "[$(date +%T)] candidate references:"; ls -la "$REF"
+
+echo; echo "[$(date +%T)] candidate references:"
+for f in "$REF"/*.fna.gz; do printf "  %-34s %s\n" "$(basename "$f" .fna.gz)" "$(du -h "$f"|cut -f1)"; done

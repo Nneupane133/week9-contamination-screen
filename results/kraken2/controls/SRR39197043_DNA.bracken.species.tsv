@@ -1,0 +1,27 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Homo sapiens	9606	S	47737	14587	62324	0.51253
+Lodderomyces beijingensis	1775926	S	1462	287	1749	0.01438
+Pichia kudriavzevii	4909	S	50	2	52	0.00043
+Colletotrichum destructivum	34406	S	17	1	18	0.00015
+Neurospora crassa	5141	S	16	1	17	0.00014
+Plasmodium relictum	85471	S	8291	1467	9758	0.08025
+Babesia bigemina	5866	S	14	51	65	0.00053
+Leishmania donovani	5661	S	133	1590	1723	0.01417
+Leishmania infantum	5671	S	58	679	737	0.00606
+Leishmania major	5664	S	1064	788	1852	0.01523
+Acinetobacter indicus	756892	S	24	453	477	0.00392
+Acinetobacter schindleri	108981	S	17	380	397	0.00326
+Pseudomonas aeruginosa	287	S	179	31070	31249	0.25698
+Pectobacterium carotovorum	554	S	18	177	195	0.00160
+Halomonas sp. PA16-9	2576841	S	13	19	32	0.00026
+Variovorax sp. PBL-E5	434014	S	39	274	313	0.00257
+Aequorivita ciconiae	2494375	S	20	21	41	0.00034
+Flavobacterium sp. RS13.1	3400345	S	10	23	33	0.00027
+Epilithonimonas vandammei	2487072	S	10	13	23	0.00019
+Dissulfurispira thermophila	2715679	S	77	19	96	0.00079
+Staphylococcus saccharolyticus	33028	S	15	67	82	0.00067
+Staphylococcus epidermidis	1282	S	13	888	901	0.00741
+Paenibacillus sp. PK4536	3024576	S	32	255	287	0.00236
+Streptomyces sp. GQFP	2907545	S	100	84	184	0.00151
+Microcystis viridis	44822	S	15	72	87	0.00072
+Harbinvirus semele	2734052	S	855	8039	8894	0.07314

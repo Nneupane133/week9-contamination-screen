@@ -1,0 +1,19 @@
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /home/aubnxn001/week9/results/kraken2/full/BYJ10_RNA.report -o /home/aubnxn001/week9/results/kraken2/full/BYJ10_RNA.bracken.species.tsv -k /home/aubnxn001/week9/references/db/k2_pluspf_16gb/database150mers.kmer_distrib -l S -t 10
+>> Checking report file: /home/aubnxn001/week9/results/kraken2/full/BYJ10_RNA.report
+PROGRAM START TIME: 10-19-2026 16:45:34
+BRACKEN SUMMARY (Kraken report: /home/aubnxn001/week9/results/kraken2/full/BYJ10_RNA.report)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 25 
+	  >> Number of species with reads > threshold: 11 
+	  >> Number of species with reads < threshold: 14 
+    >>> Total reads in sample: 42352610
+	  >> Total reads kept at species level (reads > threshold): 46781
+	  >> Total reads discarded (species reads < threshold): 30
+	  >> Reads distributed: 95480
+	  >> Reads not distributed (eg. no species above threshold): 257
+	  >> Unclassified reads: 42210062
+BRACKEN OUTPUT PRODUCED: /home/aubnxn001/week9/results/kraken2/full/BYJ10_RNA.bracken.species.tsv
+PROGRAM END TIME: 10-19-2026 16:45:34
+  Bracken complete.

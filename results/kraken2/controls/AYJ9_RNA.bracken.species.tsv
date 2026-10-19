@@ -1,0 +1,10 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Homo sapiens	9606	S	35623	78431	114054	0.90336
+Streptomyces canus	58343	S	17	714	731	0.00579
+Avian endogenous retrovirus EAV-HP	93465	S	9217	0	9217	0.07300
+Avian myelocytomatosis virus	11867	S	462	1157	1619	0.01282
+Avian sarcoma virus CT10	11878	S	226	40	266	0.00211
+Y73 sarcoma virus	11884	S	94	59	153	0.00121
+UR2 sarcoma virus	354090	S	73	2	75	0.00059
+Avian myeloblastosis virus	11866	S	68	0	68	0.00054
+Fujinami sarcoma virus	11885	S	64	3	67	0.00053
