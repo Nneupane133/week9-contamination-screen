@@ -22,3 +22,7 @@ results/assembly/**/intermediate_contigs/
 logs/*.log
 *.o[0-9]*
 .panfs.*
+# Tool stderr logs are rewritten live by running jobs and are regenerable
+results/**/*.minimap2.log
+results/**/*.kraken2.log
+results/**/*.stderr
