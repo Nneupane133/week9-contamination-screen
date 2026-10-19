@@ -1,0 +1,4 @@
+Started: Sun Oct 18 16:48:22 CDT 2026
+2026-10-18T21:48:24 fasterq-dump.3.0.0 err: name not found while resolving query within virtual file system module - failed to resolve accession '/home/aubnxn001/week9/data/DNA_WGS/SRR39197043' - Cannot resolve accession ( 404 )
+fasterq-dump quit with error code 3
+ERROR: line 31; exit 3; command: fasterq-dump "$OUTDIR/$ACCESSION" --split-files --threads "$THREADS" --temp "$OUTDIR" --outdir "$OUTDIR" --progress

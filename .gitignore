@@ -1,0 +1,21 @@
+# Raw and derived sequence data -- far too large for version control
+data/
+references/host/
+references/db/
+references/candidates/
+envs/
+*.fq.gz
+*.fastq.gz
+*.fna.gz
+*.bam
+*.bai
+*.sam
+*.k2d
+*.tar.gz
+# Large intermediate outputs; the summary tables they feed are tracked
+results/**/*.kraken2.out
+results/**/*.contigs.fa
+results/assembly/**/intermediate_contigs/
+logs/*.log
+*.o[0-9]*
+.panfs.*

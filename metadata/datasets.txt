@@ -1,0 +1,45 @@
+RNA-SEQ DATASET
+Organism: Gallus gallus
+Treatment: ARV infected
+Tissue: [Jejunum]
+Sample ID: [BYJ10]
+Sequencing type: Paired-end RNA-seq
+Source: Existing laboratory data
+
+
+DNA WGS DATASET (SRR39197041)
+Organism: Aedes aegypti (Mosquito)
+Sample type: S_106 (sample collection method not specified)
+SRA accession: SRR39197041
+Experiment accession: SRX33940159
+Library name: S_106_lib
+Library strategy: WGS
+Library source: GENOMIC
+Library selection: PCR
+Sequencing platform: Illumina
+Layout: PAIRED
+Read length: 151 bp × 2
+Number of spots: 60.4 million
+Total bases: 18.2 Gb
+Dataset size: 5.4 GB
+GC content: 42.2%
+Publication date: 2026-06-17
+Data status: Public
+Source: NCBI Sequence Read Archive (SRA)
+
+DNA WGS DATASET (SRR39197043)
+Organism: Aedes aegypti (Mosquito)
+Sample type: S_92 (sample collection method not specified)
+SRA accession: SRR39197043
+Library strategy: WGS
+Library source: GENOMIC
+Layout: PAIRED
+Read length: 151 bp × 2
+Number of spots: 60.4 million
+Total bases: 18.2 Gb
+Dataset size: 5.4 GB
+GC content: 41.8%
+Publication date: 2026-06-17
+Data status: Public
+Source: NCBI Sequence Read Archive (SRA)
+
