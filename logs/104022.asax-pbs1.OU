@@ -1,0 +1,21 @@
+[12:24:43] host depletion (BYJ10_RNA)
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+[M::bam2fq_mainloop] discarded 0 singletons
+[M::bam2fq_mainloop] processed 5862 reads
+processed files:  2 / 2 [======] ETA: 0s
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+[1A[Jprocessed files:  2 / 2 [] ETA: 0s. done
+file                                                                   format  type  num_seqs  sum_len  min_len  avg_len  max_len
+/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/nonhost_1.fq.gz  FASTQ   DNA      2,931  439,650      150      150      150
+/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/nonhost_2.fq.gz  FASTQ   DNA      2,931  439,650      150      150      150
+[12:25:15] MEGAHIT
+[12:25:25] rnaSPAdes
+[33m[WARN][0m you may switch on flag -g/--remove-gaps to remove spaces
+file                                                                     format  type  num_seqs  sum_len  min_len  avg_len  max_len
+/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/contigs.pooled.fa  FASTA   DNA        252  128,968      300    511.8    1,634
+[12:25:46] geNomad
+  WARN: geNomad failed
+[12:25:56] CheckV
+  no geNomad virus contigs; running CheckV on all contigs instead
+[12:26:14] DIAMOND blastx vs RefSeq viral proteins
+[12:26:37] BYJ10_RNA assembly/virus arm complete

@@ -14,6 +14,9 @@ envs/
 *.tar.gz
 # Large intermediate outputs; the summary tables they feed are tracked
 results/**/*.kraken2.out
+results/**/*.kraken2.out.gz
+results/**/*.depth.nonhost.tsv.gz
+references/combined/
 results/**/*.contigs.fa
 results/assembly/**/intermediate_contigs/
 logs/*.log

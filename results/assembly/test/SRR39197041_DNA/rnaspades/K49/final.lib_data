@@ -1,0 +1,37 @@
+ü
+---
+max read length: 151
+nomerge max read length: 151
+average read length: 150.999
+average coverage: 1.88138
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/nonhost_1.fq.gz'
+    right reads:
+      - '/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/nonhost_2.fq.gz'
+    data:
+      unmerged read length: 151
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/.bin_reads/INFO_0'
+        paired read prefix: '/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/.bin_reads/paired_0'
+        merged read prefix: '/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/.bin_reads/merged_0'
+        single read prefix: '/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/.bin_reads/single_0'
+        chunk num:       16
+      single reads mapped: false
+      library index:   0
+      number of reads: 13100
+      total nucleotides: 1978083
+...

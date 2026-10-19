@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_43_1    -          VOG11584             -              0.067    7.4   6.9      0.13    6.5   0.3   3.1   3   0   0   3   3   3   0 # 1 # 609 # 1 # ID=12_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.591
+rnaspades_NODE_163_length_305_cov_0.853448_g161_i0_1 -          VOG11585             -             0.0027   11.3   1.7      0.68    3.6   0.1   3.9   1   1   2   4   4   4   2 # 1 # 303 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.505
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          VOG11654             -                8.4   -1.7  17.7       9.8   -1.9  17.7   1.0   1   0   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/57.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/57.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/57.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:03 2026
+# [ok]

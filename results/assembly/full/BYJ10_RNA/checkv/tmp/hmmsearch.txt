@@ -1,0 +1,1204 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_267_length_2878_cov_234.684492_g36_i1_1 -          K06217               -             0.0012   11.5   0.1    0.0017   11.0   0.1   1.1   1   0   0   1   1   1   1 # 241 # 2157 # -1 # ID=3_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.696
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_5 -          K06440               -              0.075    6.6  13.4     0.026    8.0   0.9   3.8   1   1   3   4   4   4   0 # 5037 # 5315 # 1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.523
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_4 -          K06440               -               0.32    4.6  32.4     0.068    6.7   0.4   7.8   2   2   6   8   8   8   0 # 4193 # 4723 # 1 # ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.510
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_3 -          K06440               -                3.5    1.2  24.7      0.38    4.3   1.2   5.9   1   1   5   6   6   6   0 # 3767 # 4183 # 1 # ID=1_3;partial=00;start_type=GTG;rbs_motif=GGAGG;rbs_spacer=5bp;genetic_code=11;gc_cont=0.556
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          K06921               -             0.0023   10.6   0.0    0.0035    9.9   0.0   1.2   1   0   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/29.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/29.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/29.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/51.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/51.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/51.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/33.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/33.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/33.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_2550_2                                     -          VOG09804             -            0.00073   12.7   0.5     0.042    7.0   0.2   2.1   1   1   1   2   2   2   2 # 435 # 671 # 1 # ID=2_2;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=8bp;genetic_code=11;gc_cont=0.464
+rnaspades_NODE_251_length_2958_cov_136.478336_g122_i2_8 -          VOG09804             -            0.00073   12.7   0.5     0.042    7.0   0.2   2.1   1   1   1   2   2   2   2 # 2454 # 2690 # -1 # ID=1_8;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=8bp;genetic_code=11;gc_cont=0.464
+rnaspades_NODE_251_length_2958_cov_136.478336_g122_i2_9 -          VOG09804             -            0.00073   12.7   0.5     0.042    7.0   0.2   2.1   1   1   1   2   2   2   2 # 2698 # 2934 # -1 # ID=1_9;partial=00;start_type=ATG;rbs_motif=ATA;rbs_spacer=8bp;genetic_code=11;gc_cont=0.464
+rnaspades_NODE_375_length_2431_cov_39.424936_g225_i0_1 -          VOG09859             -            0.00015   15.4   1.8      0.24    5.1   0.1   3.3   3   0   0   3   3   3   3 # 65 # 622 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.573
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/53.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/53.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/53.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/45.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/45.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/45.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          Metallophos_2        PF12850.7     0.0012   12.6   0.0    0.0016   12.1   0.0   1.3   1   0   0   1   1   1   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+megahit_k141_1280_3  -          NPCBM_assoc          PF10633.9     0.0047   10.7   3.6      0.33    4.8   0.1   3.7   3   1   0   3   3   3   1 # 1419 # 2177 # 1 # ID=1_3;partial=00;start_type=TTG;rbs_motif=GGTG;rbs_spacer=5bp;genetic_code=11;gc_cont=0.574
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/9.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/9.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/9.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/69.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/69.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/69.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_15 -          YP_007006476@NC_019519 -              0.092    5.4   9.7      0.15    4.7   9.7   1.4   1   1   0   1   1   1   0 # 4044 # 4220 # 1 # ID=2_15;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.548
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5  -          YP_007006476@NC_019519 -                7.8   -0.9  15.4        36   -3.1  15.4   1.8   1   1   0   1   1   1   0 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/73.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/73.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/73.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/12.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/12.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/12.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/74.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/74.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/74.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_3 -          TIGR03570            TIGR03570    0.00074   12.5   0.0    0.0011   12.0   0.0   1.1   1   0   0   1   1   1   1 # 686 # 1117 # -1 # ID=2_3;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.519
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/22.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/22.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/22.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_7 -          VOG10281             -               0.12    6.0  19.0   1.8e+02   -5.0  19.0   3.3   1   1   0   1   1   1   0 # 5989 # 6138 # 1 # ID=1_7;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.520
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          VOG10339             -             0.0012   11.9   0.0     0.068    6.3   0.0   2.7   1   1   1   2   2   2   2 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          VOG10550             -             0.0035   11.2   1.8      0.42    4.5   0.0   3.7   1   1   3   4   4   4   1 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/54.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/54.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/54.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_3043_4                                  -          Pfam-B_12091         PB012091      0.0064   10.8  16.5     0.022    9.1   5.1   2.6   1   1   1   2   2   2   2 # 1962 # 2519 # -1 # ID=2_4;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_149_length_3595_cov_6.494321_g83_i0_4 -          Pfam-B_12091         PB012091       0.053    7.8  14.4     0.095    7.0   4.4   2.9   1   1   1   2   2   2   0 # 2022 # 3593 # -1 # ID=3_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/18.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/18.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/18.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_443_length_2200_cov_103.406676_g172_i1_1 -          K03546               -              0.025    6.2   8.5     0.034    5.8   8.5   1.0   1   0   0   1   1   1   0 # 175 # 1488 # 1 # ID=1_1;partial=00;start_type=ATG;rbs_motif=GGG;rbs_spacer=12bp;genetic_code=11;gc_cont=0.735
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/27.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/27.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/27.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          K20456               -            1.7e-06   19.6   0.0   2.8e-06   18.8   0.0   1.3   1   1   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/37.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/37.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/37.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          DUF3084              PF11283.8    6.9e-05   16.3   5.8      0.39    4.3   0.1   6.2   2   2   2   6   6   6   3 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+rnaspades_NODE_115_length_4022_cov_22.510256_g63_i0_5 -          DUF3309              PF11752.8    0.00055   13.5  26.9   0.00099   12.7   0.4   4.0   1   1   3   4   4   4   3 # 2646 # 2888 # -1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.593
+rnaspades_NODE_123_length_3912_cov_21.016931_g63_i1_5 -          DUF3309              PF11752.8    0.00055   13.5  26.9   0.00099   12.7   0.4   4.0   1   1   3   4   4   4   3 # 2536 # 2778 # -1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.593
+rnaspades_NODE_115_length_4022_cov_22.510256_g63_i0_8 -          DUF3309              PF11752.8      0.012    9.2   9.3      0.55    3.9   9.3   2.5   1   1   0   1   1   1   0 # 3207 # 3392 # -1 # ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.538
+rnaspades_NODE_123_length_3912_cov_21.016931_g63_i1_8 -          DUF3309              PF11752.8      0.012    9.2   9.3      0.55    3.9   9.3   2.5   1   1   0   1   1   1   0 # 3097 # 3282 # -1 # ID=1_8;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.538
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/5.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/5.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/5.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_2550_16                                    -          PNP_UDP_1            PF01048.20   2.3e-46  151.4   0.0   2.7e-46  151.2   0.0   1.0   1   0   0   1   1   1   1 # 5093 # 5713 # -1 # ID=2_16;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.638
+rnaspades_NODE_213_length_3160_cov_102.779397_g122_i0_1 -          PNP_UDP_1            PF01048.20   2.3e-46  151.4   0.0   2.7e-46  151.2   0.0   1.0   1   0   0   1   1   1   1 # 2539 # 3159 # -1 # ID=1_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.638
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_2 -          Ribosomal_S6e        PF01092.19     0.018    8.5   4.8      0.07    6.6   0.8   2.6   2   1   0   2   2   2   0 # 2948 # 3625 # 1 # ID=1_2;partial=00;start_type=ATG;rbs_motif=GGGG;rbs_spacer=6bp;genetic_code=11;gc_cont=0.634
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/11.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/11.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/11.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_501_1                                    -          K14673               -             0.0023   10.8   2.8     0.014    8.3   0.1   3.2   3   0   0   3   3   3   1 # 164 # 1966 # 1 # ID=1_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.613
+rnaspades_NODE_130_length_3830_cov_11.229971_g72_i0_3 -          K14673               -             0.0023   10.8   2.8     0.014    8.3   0.1   3.2   3   0   0   3   3   3   1 # 620 # 2422 # -1 # ID=2_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.613
+rnaspades_NODE_395_length_2351_cov_33.036435_g239_i0_1 -          K15261               -            1.4e-28   92.2   0.0   2.9e-19   61.3   0.0   3.0   3   0   0   3   3   3   3 # 3 # 2351 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.703
+megahit_k141_1252_1                                    -          K15261               -            2.7e-28   91.3   0.0   3.4e-19   61.1   0.0   3.0   3   0   0   3   3   3   3 # 2 # 2653 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.698
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/34.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/34.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/34.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          VOG00285             -            1.8e-06   20.4   0.0   3.5e-06   19.5   0.0   1.3   1   1   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5 -          VOG00343             -             0.0028    9.8   0.3    0.0028    9.8   0.3   1.0   1   0   0   1   1   1   1 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_562_length_1924_cov_16.714749_g342_i0_2 -          VOG00406             -              0.026    6.8  13.7     0.026    6.8  13.7   1.0   1   0   0   1   1   1   0 # 1209 # 1361 # 1 # ID=2_2;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.654
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          VOG00428             -            5.3e-05   16.8   0.1   0.00013   15.6   0.1   1.7   1   0   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+rnaspades_NODE_375_length_2431_cov_39.424936_g225_i0_1 -          VOG00432             -             0.0033   10.7   4.7    0.0076    9.5   4.7   1.7   1   1   0   1   1   1   1 # 65 # 622 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.573
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/40.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/40.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/40.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_5 -          FAM008611            -                1.7    1.3  20.7     0.085    5.6   3.2   3.1   1   1   2   3   3   3   0 # 5037 # 5315 # 1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.523
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/79.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/79.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/79.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/15.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/15.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/15.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_121_length_3922_cov_26.938166_g66_i0_1 -          VOG02203             -                1.5    1.7  12.1       2.8    0.8  12.1   1.3   1   0   0   1   1   1   0 # 89 # 2191 # 1 # ID=3_1;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.699
+rnaspades_NODE_234_length_3057_cov_126.450067_g122_i1_7 -          VOG02553             -              0.016    8.2   7.7     0.021    7.8   0.3   2.8   1   1   1   3   3   3   0 # 1776 # 2171 # 1 # ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.462
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/46.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/46.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/46.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_501_2                                    -          TIGR00411            TIGR00411        8.9   -0.1  16.0     0.028    8.0   2.1   3.5   3   2   2   5   5   5   0 # 2018 # 2503 # 1 # ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.609
+rnaspades_NODE_130_length_3830_cov_11.229971_g72_i0_2 -          TIGR00411            TIGR00411        8.9   -0.1  16.0     0.028    8.0   2.1   3.5   3   2   2   5   5   5   0 # 83 # 568 # -1 # ID=2_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.609
+megahit_k141_1126_1  -          TIGR00871            TIGR00871   1.2e-179  591.3   0.0  1.4e-179  591.1   0.0   1.0   1   0   0   1   1   1   1 # 27 # 1625 # 1 # ID=3_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.664
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/20.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/20.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/20.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_13 -          Glyco_trans_2_3      PF13632.6        4.5    0.6  22.3      0.32    4.3   7.9   2.2   2   0   0   2   2   2   0 # 3298 # 3801 # 1 # ID=2_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.528
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/7.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/7.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/7.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_202_length_3192_cov_32.971145_g113_i0_4 -          DUF1641              PF07849.11     0.017    8.6   5.1     0.076    6.5   0.4   2.8   2   1   1   3   3   3   0 # 1508 # 1696 # -1 # ID=3_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.571
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/4.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/4.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/4.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_2386_length_531_cov_3.032751_g1821_i0_1 -          VOG10740             -               0.46    4.2  18.5     0.025    8.2   1.1   5.6   5   1   2   7   7   7   0 # 3 # 530 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.621
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/55.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/55.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/55.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_267_length_2878_cov_234.684492_g36_i1_1 -          K17392               -            0.00014   13.9   0.1   0.00024   13.1   0.1   1.4   1   0   0   1   1   1   1 # 241 # 2157 # -1 # ID=3_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/35.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/35.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/35.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_260_length_2912_cov_133.317013_g154_i0_1 -          Hist_deacetyl        PF00850.19  7.9e-100  327.7   0.0   1.9e-82  270.6   0.0   2.8   2   1   1   3   3   3   2 # 304 # 2910 # 1 # ID=2_1;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.725
+rnaspades_NODE_267_length_2878_cov_234.684492_g36_i1_1 -          KH_1                 PF00013.29   1.7e-09   30.9   1.1   3.8e-09   29.8   1.1   1.6   1   1   0   1   1   1   1 # 241 # 2157 # -1 # ID=3_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/8.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/8.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/8.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/31.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/31.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/31.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_1126_1  -          VOG12844             -            1.3e-89  294.5   0.0   1.8e-89  294.1   0.0   1.1   1   0   0   1   1   1   1 # 27 # 1625 # 1 # ID=3_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.664
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/59.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/59.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/59.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/64.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/64.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/64.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_115_length_4022_cov_22.510256_g63_i0_6  -          VOG13806             -            0.00085   12.6   3.0   0.00088   12.6   3.0   1.1   1   0   0   1   1   1   1 # 2905 # 3063 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.528
+rnaspades_NODE_123_length_3912_cov_21.016931_g63_i1_6  -          VOG13806             -            0.00085   12.6   3.0   0.00088   12.6   3.0   1.1   1   0   0   1   1   1   1 # 2795 # 2953 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.528
+rnaspades_NODE_202_length_3192_cov_32.971145_g113_i0_3 -          VOG13806             -             0.0079    9.5   3.7    0.0082    9.4   3.7   1.2   1   0   0   1   1   1   1 # 1204 # 1431 # -1 # ID=3_3;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.557
+rnaspades_NODE_202_length_3192_cov_32.971145_g113_i0_4 -          VOG13806             -              0.011    9.0   9.3     0.016    8.5   9.1   1.4   1   1   0   1   1   1   0 # 1508 # 1696 # -1 # ID=3_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.571
+rnaspades_NODE_115_length_4022_cov_22.510256_g63_i0_7  -          VOG13806             -               0.14    5.5   8.9      0.17    5.1   8.9   1.3   1   1   0   1   1   1   0 # 3080 # 3244 # -1 # ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.582
+rnaspades_NODE_123_length_3912_cov_21.016931_g63_i1_7  -          VOG13806             -               0.14    5.5   8.9      0.17    5.1   8.9   1.3   1   1   0   1   1   1   0 # 2970 # 3134 # -1 # ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.582
+rnaspades_NODE_115_length_4022_cov_22.510256_g63_i0_10 -          VOG13806             -                2.1    1.6  13.5      0.34    4.2   7.5   2.1   1   1   1   2   2   2   0 # 3536 # 4021 # -1 # ID=1_10;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.673
+rnaspades_NODE_123_length_3912_cov_21.016931_g63_i1_10 -          VOG13806             -                2.1    1.6  13.5      0.34    4.2   7.5   2.1   1   1   1   2   2   2   0 # 3426 # 3911 # -1 # ID=1_10;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.673
+rnaspades_NODE_202_length_3192_cov_32.971145_g113_i0_5 -          VOG13806             -                3.2    1.0  15.8      0.16    5.2   5.4   2.9   1   1   1   3   3   3   0 # 1830 # 2270 # -1 # ID=3_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.576
+rnaspades_NODE_306_length_2730_cov_12.154309_g178_i0_4 -          VOG14281             -            0.00012   15.5   2.4     0.004   10.7   0.5   2.7   1   1   2   3   3   3   2 # 1510 # 1740 # 1 # ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.506
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/60.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/60.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/60.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_3043_4  -          YP_002242057@NC_011291 -                2.4    2.2  14.7    0.0082   10.1   0.2   3.4   1   1   3   4   4   4   0 # 1962 # 2519 # -1 # ID=2_4;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.550
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/70.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/70.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/70.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/1.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/1.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/1.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_10 -          K03824               -            3.4e-06   19.9   0.1   4.1e-06   19.6   0.1   1.0   1   0   0   1   1   1   1 # 2377 # 2676 # 1 # ID=2_10;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.507
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_13 -          K03824               -            1.7e-05   17.6   1.6    0.0055    9.3   0.1   2.0   2   0   0   2   2   2   2 # 3298 # 3801 # 1 # ID=2_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.528
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_12 -          K03824               -              7e-05   15.6   0.0   7.2e-05   15.5   0.0   1.0   1   0   0   1   1   1   1 # 2857 # 3138 # 1 # ID=2_12;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.511
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_15 -          K03824               -            0.00017   14.3   3.1   0.00022   13.9   3.1   1.1   1   0   0   1   1   1   1 # 4044 # 4220 # 1 # ID=2_15;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.548
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5  -          K03824               -            0.00025   13.8   0.8   0.00095   11.8   0.8   1.8   1   1   0   1   1   1   1 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_2  -          K03824               -            0.00044   12.9   0.0   0.00053   12.7   0.0   1.0   1   0   0   1   1   1   1 # 399 # 869 # 1 # ID=2_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.518
+rnaspades_NODE_260_length_2912_cov_133.317013_g154_i0_1 -          K04768               -            3.8e-71  233.7   0.0   1.3e-61  202.3   0.0   2.7   3   0   0   3   3   3   2 # 304 # 2910 # 1 # ID=2_1;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.725
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_13 -          K05822               -            0.00043   13.2   6.5    0.0021   10.9   0.0   2.1   2   0   0   2   2   2   1 # 3298 # 3801 # 1 # ID=2_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.528
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5  -          K05822               -              0.019    7.8   9.4    0.0033   10.3   2.1   2.0   1   1   1   2   2   2   0 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_15 -          K05822               -              0.024    7.5  11.9     0.076    5.8  11.9   1.7   1   1   0   1   1   1   0 # 4044 # 4220 # 1 # ID=2_15;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.548
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_10 -          K05822               -              0.074    5.9   9.5      0.05    6.4   1.6   2.0   1   1   1   2   2   2   0 # 2377 # 2676 # 1 # ID=2_10;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.507
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/28.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/28.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/28.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_149_length_3595_cov_6.494321_g83_i0_4 -          BBP2_2               PF10082.9     0.0026   10.0   0.6     0.026    6.8   0.6   2.2   1   1   0   1   1   1   1 # 2022 # 3593 # -1 # ID=3_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.547
+rnaspades_NODE_1358_length_986_cov_241.461117_g403_i2_1 -          Bcl-2                PF00452.19   1.9e-25   83.0   0.7   2.6e-25   82.5   0.7   1.2   1   0   0   1   1   1   1 # 1 # 345 # 1 # ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.614
+rnaspades_NODE_234_length_3057_cov_126.450067_g122_i1_7 -          BNR                  PF02012.20   0.00034   14.1  10.5       1.1    3.4   0.1   6.3   6   0   0   6   6   6   2 # 1776 # 2171 # 1 # ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.462
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/2.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/2.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/2.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/36.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/36.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/36.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_1280_1  -          VOG18115             -             0.0045   10.6   3.1      0.19    5.4   0.2   2.7   2   1   1   3   3   3   2 # 177 # 692 # 1 # ID=1_1;partial=00;start_type=TTG;rbs_motif=GTG;rbs_spacer=14bp;genetic_code=11;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/63.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/63.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/63.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                                                                    --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                                accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                                      -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/66.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/66.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/66.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_149_length_3595_cov_6.494321_g83_i0_4 -          DUF481               PF04338.12    0.0022   11.5   0.0     0.027    7.9   0.0   2.3   2   1   1   3   3   3   1 # 2022 # 3593 # -1 # ID=3_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.547
+megahit_k141_1280_1  -          DUF4914              PF16260.5       0.01    7.3   3.0     0.046    5.2   0.2   2.1   2   0   0   2   2   2   0 # 177 # 692 # 1 # ID=1_1;partial=00;start_type=TTG;rbs_motif=GTG;rbs_spacer=14bp;genetic_code=11;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/6.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/6.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/6.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_16 -          K00286               -            2.8e-10   32.4  19.2   3.5e-10   32.1  19.2   1.0   1   0   0   1   1   1   1 # 4512 # 5243 # -1 # ID=2_16;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.561
+megahit_k141_1252_1                                    -          K00289               -              0.087    3.7  12.8      0.12    3.3  10.9   2.0   1   1   0   1   1   1   0 # 2 # 2653 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.698
+rnaspades_NODE_395_length_2351_cov_33.036435_g239_i0_1 -          K00289               -               0.11    3.4  13.6      0.18    2.6  12.0   2.0   1   1   0   1   1   1   0 # 3 # 2351 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.703
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/24.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/24.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/24.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_121_length_3922_cov_26.938166_g66_i0_2 -          VOG01581             -               0.62    1.4  18.7      0.73    1.2  18.7   1.1   1   0   0   1   1   1   0 # 3154 # 3867 # 1 # ID=3_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.718
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/44.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/44.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/44.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_115_length_4022_cov_22.510256_g63_i0_6 -          VOG00097             -            0.00073   12.8   3.7   0.00082   12.7   3.7   1.1   1   0   0   1   1   1   1 # 2905 # 3063 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.528
+rnaspades_NODE_123_length_3912_cov_21.016931_g63_i1_6 -          VOG00097             -            0.00073   12.8   3.7   0.00082   12.7   3.7   1.1   1   0   0   1   1   1   1 # 2795 # 2953 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.528
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          VOG00205             -             0.0015    8.9   9.0    0.0019    8.6   9.0   1.0   1   0   0   1   1   1   1 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/39.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/39.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/39.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/10.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/10.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/10.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_395_length_2351_cov_33.036435_g239_i0_1 -          FAM006017            -                3.6   -0.7  17.5         5   -1.2  17.5   1.2   1   0   0   1   1   1   0 # 3 # 2351 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.703
+megahit_k141_1252_1                                    -          FAM006017            -                6.5   -1.5  18.0         9   -2.0  18.0   1.2   1   0   0   1   1   1   0 # 2 # 2653 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.698
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          FAM006044            -            1.2e-17   57.5   0.0     2e-17   56.8   0.0   1.2   1   0   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+megahit_k141_1349_1  -          FAM006078            -               0.65    0.7  26.4      0.75    0.5  26.4   1.1   1   0   0   1   1   1   0 # 153 # 1064 # 1 # ID=1_1;partial=01;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.607
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/78.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/78.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/78.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_130_length_3830_cov_11.229971_g72_i0_4 -          Pfam-B_7093          PB007093      0.0021    9.4   0.8     0.083    4.2   0.1   2.0   2   0   0   2   2   2   2 # 2480 # 3538 # -1 # ID=2_4;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.625
+megahit_k141_1281_1                                    -          Pfam-B_9817          PB009817     6.8e-05   16.6   0.0   8.3e-05   16.3   0.0   1.3   1   0   0   1   1   1   1 # 2 # 154 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.575
+rnaspades_NODE_375_length_2431_cov_39.424936_g225_i0_1 -          Pfam-B_9817          PB009817       8e-05   16.4   0.1     0.075    6.9   0.0   3.5   2   1   1   3   3   3   1 # 65 # 622 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.573
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/17.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/17.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/17.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_5 -          VOG03726             -               0.46    3.8  11.7      0.21    4.9   3.1   2.4   1   1   1   2   2   2   0 # 5037 # 5315 # 1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.523
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/49.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/49.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/49.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_15 -          UCR_Fe-S_N           PF10399.9        3.8    0.5  26.2      0.11    5.5   2.3   3.6   1   1   3   4   4   4   0 # 4044 # 4220 # 1 # ID=2_15;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.548
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/13.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/13.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/13.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_1280_2  -          VOG14665             -             0.0068   10.4   3.7      0.23    5.5   0.1   3.1   1   1   2   3   3   3   2 # 834 # 1340 # 1 # ID=1_2;partial=00;start_type=TTG;rbs_motif=GGT;rbs_spacer=10bp;genetic_code=11;gc_cont=0.562
+megahit_k141_1280_3  -          VOG14665             -              0.046    7.8   6.4      0.21    5.7   0.1   3.8   2   2   4   6   6   6   0 # 1419 # 2177 # 1 # ID=1_3;partial=00;start_type=TTG;rbs_motif=GGTG;rbs_spacer=5bp;genetic_code=11;gc_cont=0.574
+rnaspades_NODE_2055_length_624_cov_3.341198_g1498_i0_1 -          VOG15018             -                  6    0.7  25.5      0.23    5.3   0.7   5.1   3   2   2   5   5   5   0 # 62 # 622 # 1 # ID=1_1;partial=01;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.599
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/61.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/61.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/61.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:53 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          VOG00623             -            5.7e-14   43.8   3.8   7.3e-14   43.4   3.8   1.1   1   0   0   1   1   1   1 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/41.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/41.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/41.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_3043_4                                  -          VOG11674             -            0.00033   13.8   2.8      0.19    4.9   0.0   3.7   3   0   0   3   3   3   3 # 1962 # 2519 # -1 # ID=2_4;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_149_length_3595_cov_6.494321_g83_i0_4 -          VOG11674             -                4.5    0.5  14.3      0.48    3.6   0.3   4.2   4   0   0   4   4   4   0 # 2022 # 3593 # -1 # ID=3_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/57.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/57.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/57.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          FAM000315            -            2.1e-05   18.2   0.0    0.0046   10.6   0.0   2.8   1   1   2   3   3   3   3 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/76.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/76.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/76.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_307_1                                    -          YP_004894720@NC_016072 -              0.017    9.0   9.2     0.018    9.0   9.2   1.0   1   0   0   1   1   1   0 # 948 # 1106 # -1 # ID=3_1;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.616
+rnaspades_NODE_117_length_3968_cov_96.217972_g65_i0_1 -          YP_004894720@NC_016072 -              0.017    9.0   9.2     0.018    9.0   9.2   1.0   1   0   0   1   1   1   0 # 1537 # 1695 # -1 # ID=2_1;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.616
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/71.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/71.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/71.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_2386_length_531_cov_3.032751_g1821_i0_1 -          DUF1269              PF06897.12       8.5    0.3  22.4     0.024    8.5   0.4   4.0   3   1   1   4   4   4   0 # 3 # 530 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.621
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/3.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/3.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/3.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_149_length_3595_cov_6.494321_g83_i0_4 -          TIGR00144            TIGR00144      0.043    6.3   8.5     0.047    6.2   0.4   2.6   2   1   1   3   3   3   0 # 2022 # 3593 # -1 # ID=3_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.547
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/19.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/19.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/19.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/43.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/43.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/43.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_6 -          FAM016480            -             0.0039    9.9  11.0     0.017    7.8   0.8   2.9   1   1   2   3   3   3   2 # 5325 # 5927 # 1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.519
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/80.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/80.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/80.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                                                       --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                   accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                         -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3513 -            0.00017   12.5   0.0    0.0002   12.3   0.0   1.1   1   0   0   1   1   1   1 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+rnaspades_NODE_306_length_2730_cov_12.154309_g178_i0_4 -          7000000515@SRS049995_LANL_scaffold_24778@SRS049995_LANL_scaffold_24778_gene_63679 -             0.0007   10.1   1.1   0.00079   10.0   1.1   1.0   1   0   0   1   1   1   1 # 1510 # 1740 # 1 # ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.506
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_7 -          7000000605@SRS019028_WUGC_scaffold_45396@SRS019028_WUGC_scaffold_45396_gene_51960 -               0.49    2.8   9.3      0.53    2.6   0.6   2.5   1   1   1   2   2   2   0 # 5989 # 6138 # 1 # ID=1_7;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.520
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_5 -          7000000605@SRS019028_WUGC_scaffold_45396@SRS019028_WUGC_scaffold_45396_gene_51960 -                9.7   -1.5  17.7       1.6    1.1   5.3   3.7   1   1   1   2   2   2   0 # 5037 # 5315 # 1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.523
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/67.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/67.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/67.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_5 -          VOG23815             -                1.5    2.5  12.5      0.23    5.2   0.3   4.0   1   1   3   4   4   4   0 # 5037 # 5315 # 1 # ID=1_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.523
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/65.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/65.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/65.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_239_length_3037_cov_46.417341_g47_i3_1 -          K11295               -            2.7e-14   47.1   3.2   3.9e-14   46.6   3.2   1.1   1   0   0   1   1   1   1 # 355 # 3036 # 1 # ID=3_1;partial=01;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.755
+rnaspades_NODE_82_length_4517_cov_44.378713_g47_i0_1  -          K11295               -            2.8e-14   47.1   3.1   4.2e-14   46.5   3.1   1.2   1   0   0   1   1   1   1 # 1532 # 4516 # 1 # ID=3_1;partial=01;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.754
+rnaspades_NODE_184_length_3315_cov_57.910549_g47_i2_1 -          K11295               -            3.1e-14   46.9   3.1   4.9e-14   46.3   3.1   1.2   1   0   0   1   1   1   1 # 2 # 3313 # -1 # ID=1_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.755
+rnaspades_NODE_260_length_2912_cov_133.317013_g154_i0_1 -          K11418               -            5.1e-20   65.0   0.0   1.2e-15   50.5   0.0   3.5   2   1   0   2   2   2   2 # 304 # 2910 # 1 # ID=2_1;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.725
+rnaspades_NODE_260_length_2912_cov_133.317013_g154_i0_1 -          K11484               -            6.1e-28   91.1   5.9   2.7e-26   85.7   5.4   2.5   3   0   0   3   3   3   2 # 304 # 2910 # 1 # ID=2_1;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.725
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/32.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/32.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/32.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5 -          VOG00891             -            2.5e-05   16.7   1.0   2.7e-05   16.6   1.0   1.1   1   0   0   1   1   1   1 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_8 -          VOG00891             -            0.00012   14.4   1.4   0.00013   14.4   1.4   1.0   1   0   0   1   1   1   1 # 2037 # 2165 # 1 # ID=2_8;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.519
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_2 -          VOG00891             -            0.00014   14.3   0.4   0.00017   14.0   0.4   1.0   1   0   0   1   1   1   1 # 399 # 869 # 1 # ID=2_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.518
+rnaspades_NODE_306_length_2730_cov_12.154309_g178_i0_2 -          VOG00913             -            0.00051   12.7   0.7    0.0018   10.9   0.1   1.9   1   1   1   2   2   2   1 # 703 # 942 # 1 # ID=1_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.512
+rnaspades_NODE_306_length_2730_cov_12.154309_g178_i0_7 -          VOG00913             -              0.021    7.4   6.5     0.012    8.3   0.1   3.0   2   2   2   4   4   4   0 # 2227 # 2580 # 1 # ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.492
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          VOG00933             -            7.2e-06   18.7   0.0   1.2e-05   18.0   0.0   1.2   1   0   0   1   1   1   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+rnaspades_NODE_267_length_2878_cov_234.684492_g36_i1_1 -          VOG00992             -             0.0012   12.1   0.2    0.0025   11.1   0.2   1.4   1   0   0   1   1   1   1 # 241 # 2157 # -1 # ID=3_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/42.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/42.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/42.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5 -          VOG03188             -            0.00025   12.6   0.8   0.00028   12.5   0.8   1.0   1   0   0   1   1   1   1 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+megahit_k141_2550_5  -          VOG03298             -               0.12    6.1   5.5     0.088    6.5   0.4   2.4   2   1   0   2   2   2   0 # 989 # 1300 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.474
+rnaspades_NODE_234_length_3057_cov_126.450067_g122_i1_7 -          VOG03406             -              0.048    6.9   8.7      0.11    5.7   0.3   2.9   1   1   0   3   3   3   0 # 1776 # 2171 # 1 # ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.462
+rnaspades_NODE_1358_length_986_cov_241.461117_g403_i2_1 -          VOG03510             -            1.2e-07   24.7   0.1   1.5e-07   24.4   0.1   1.0   1   0   0   1   1   1   1 # 1 # 345 # 1 # ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.614
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/48.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/48.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/48.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          K07313               -            6.3e-20   65.0   0.0   7.4e-20   64.8   0.0   1.1   1   0   0   1   1   1   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          K07314               -            2.8e-05   17.3   0.0   5.6e-05   16.3   0.0   1.4   1   0   0   1   1   1   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/30.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/30.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/30.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_306_length_2730_cov_12.154309_g178_i0_7 -          VOG15235             -              0.011    9.6   6.7      0.55    4.1   0.1   4.0   2   2   2   4   4   4   0 # 2227 # 2580 # 1 # ID=1_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.492
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_9 -          VOG15735             -                1.3    2.8  15.8      0.19    5.6   3.5   2.2   1   1   1   2   2   2   0 # 2156 # 2365 # 1 # ID=2_9;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.557
+rnaspades_NODE_202_length_3192_cov_32.971145_g113_i0_4 -          VOG16647             -             0.0013   12.6   5.1     0.036    8.0   2.6   2.0   1   1   1   2   2   2   2 # 1508 # 1696 # -1 # ID=3_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.571
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/62.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/62.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/62.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/72.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/72.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/72.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          VOG11297             -            0.00075   12.9   0.0    0.0045   10.4   0.0   2.0   2   0   0   2   2   2   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_4 -          VOG11384             -            8.4e-05   14.6   1.0   8.4e-05   14.6   1.0   1.0   1   0   0   1   1   1   1 # 1133 # 1366 # 1 # ID=2_4;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.530
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5 -          VOG11384             -             0.0004   12.4   3.2   0.00045   12.2   3.2   1.2   1   0   0   1   1   1   1 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_2 -          VOG11384             -             0.0027    9.7   0.1    0.0032    9.4   0.1   1.0   1   0   0   1   1   1   1 # 399 # 869 # 1 # ID=2_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.518
+rnaspades_NODE_2027_length_636_cov_1.637655_g1473_i0_1 -          VOG11460             -             0.0054   10.5   8.4     0.051    7.3   0.1   3.3   1   1   2   3   3   3   2 # 3 # 635 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.555
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/56.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/56.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/56.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_1280_3  -          TIGR02106            TIGR02106        2.5    2.0  20.2      0.38    4.6   0.1   7.8   9   2   0   9   9   9   0 # 1419 # 2177 # 1 # ID=1_3;partial=00;start_type=TTG;rbs_motif=GGTG;rbs_spacer=5bp;genetic_code=11;gc_cont=0.574
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/21.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/21.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/21.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:55 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/16.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/16.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/16.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_3043_4                                  -          FAM002622            -            0.00039   10.9   0.0   0.00047   10.6   0.0   1.0   1   0   0   1   1   1   1 # 1962 # 2519 # -1 # ID=2_4;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_149_length_3595_cov_6.494321_g83_i0_4 -          FAM002622            -             0.0011    9.5   0.0    0.0017    8.8   0.0   1.2   1   0   0   1   1   1   1 # 2022 # 3593 # -1 # ID=3_4;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.547
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_8  -          FAM002752            -             0.0033   11.2   7.2     0.006   10.4   7.2   1.5   1   1   0   1   1   1   1 # 2037 # 2165 # 1 # ID=2_8;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.519
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_12 -          FAM002752            -             0.0055   10.5   5.9      0.01    9.6   5.9   1.4   1   1   0   1   1   1   1 # 2857 # 3138 # 1 # ID=2_12;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.511
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_4  -          FAM002752            -             0.0064   10.3   7.5     0.016    9.1   7.5   1.7   1   1   0   1   1   1   1 # 1133 # 1366 # 1 # ID=2_4;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.530
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_2  -          FAM002752            -             0.0065   10.3  12.5     0.018    8.8   7.3   2.0   1   1   1   2   2   2   2 # 399 # 869 # 1 # ID=2_2;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.518
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_10 -          FAM002752            -             0.0076   10.1   4.8    0.0069   10.2   4.0   1.3   1   1   0   1   1   1   1 # 2377 # 2676 # 1 # ID=2_10;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.507
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5  -          FAM002752            -             0.0088    9.9  14.8    0.0063   10.3   6.4   2.1   1   1   1   2   2   2   1 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_3  -          FAM002752            -              0.034    8.0   9.9       3.3    1.6   9.9   2.3   1   1   0   1   1   1   0 # 686 # 1117 # -1 # ID=2_3;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.519
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/77.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/77.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/77.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          K01090               -            5.6e-27   87.9   0.0   6.5e-27   87.7   0.0   1.0   1   0   0   1   1   1   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          K01525               -            5.4e-11   35.3   0.0   7.5e-11   34.8   0.0   1.1   1   0   0   1   1   1   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_13 -          K01726               -             0.0044    9.8   6.4     0.007    9.1   0.2   2.0   2   0   0   2   2   2   2 # 3298 # 3801 # 1 # ID=2_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.528
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/25.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/25.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/25.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_306_length_2730_cov_12.154309_g178_i0_1 -          zf-CGNR              PF11706.8      0.057    6.9  39.8     0.017    8.5   2.2   6.1   3   2   3   6   6   6   0 # 2 # 673 # 1 # ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.564
+rnaspades_NODE_260_length_2912_cov_133.317013_g154_i0_1 -          zf-UBP               PF02148.19   1.1e-05   19.2   6.3   3.1e-05   17.8   6.3   1.8   1   0   0   1   1   1   1 # 304 # 2910 # 1 # ID=2_1;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.725
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/14.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/14.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/14.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:57 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/38.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/38.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/38.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_4 -          VOG08989             -            0.00016   12.7   0.0   0.00018   12.5   0.0   1.1   1   0   0   1   1   1   1 # 4193 # 4723 # 1 # ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.510
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_3 -          VOG09739             -            1.7e-05   17.7   0.2     2e-05   17.5   0.2   1.2   1   0   0   1   1   1   1 # 686 # 1117 # -1 # ID=2_3;partial=00;start_type=GTG;rbs_motif=AGGA;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.519
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/52.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/52.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/52.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_221_length_3100_cov_74.351503_g130_i0_1 -          TIGR04075            TIGR04075    5.8e-05   14.7   0.0   0.00015   13.4   0.0   1.6   1   1   0   1   1   1   1 # 2 # 799 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.627
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/23.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/23.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/23.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_3043_4  -          AFB17794@JF974289    -             0.0016    8.9   0.0    0.0026    8.2   0.0   1.2   1   1   0   1   1   1   1 # 1962 # 2519 # -1 # ID=2_4;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.550
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/68.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/68.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/68.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_13 -          K01992               -                  3    0.7  13.6       3.6    0.4  13.6   1.0   1   0   0   1   1   1   0 # 3298 # 3801 # 1 # ID=2_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.528
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/26.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/26.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/26.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_202_length_3192_cov_32.971145_g113_i0_4 -          VOG04438             -             0.0015   10.3   0.2    0.0018   10.1   0.2   1.1   1   0   0   1   1   1   1 # 1508 # 1696 # -1 # ID=3_4;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.571
+rnaspades_NODE_202_length_3192_cov_32.971145_g113_i0_5 -          VOG04438             -               0.59    1.7  13.1     0.013    7.2   4.4   1.9   1   1   1   2   2   2   0 # 1830 # 2270 # -1 # ID=3_5;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.576
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_8 -          VOG04471             -              0.014    7.4   5.1     0.015    7.3   5.1   1.2   1   0   0   1   1   1   0 # 2037 # 2165 # 1 # ID=2_8;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.519
+megahit_k141_1281_2                                    -          VOG04645             -              0.012    8.1  11.1       2.1    0.9  11.3   2.7   1   1   0   1   1   1   0 # 601 # 1728 # 1 # ID=2_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.520
+rnaspades_NODE_375_length_2431_cov_39.424936_g225_i0_2 -          VOG04645             -              0.012    8.1  11.1       2.1    0.9  11.3   2.7   1   1   0   1   1   1   0 # 956 # 2083 # 1 # ID=2_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.520
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/50.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/50.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/50.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_562_length_1924_cov_16.714749_g342_i0_2 -          YP_308890@NC_007383  -                0.8    1.9  14.3      0.75    2.0  14.3   1.1   1   0   0   1   1   1   0 # 1209 # 1361 # 1 # ID=2_2;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.654
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/75.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/75.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/75.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/47.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/47.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/47.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/58.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/58.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/58.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:56 2026
+# [ok]

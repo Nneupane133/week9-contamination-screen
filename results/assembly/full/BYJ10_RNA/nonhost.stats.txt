@@ -1,0 +1,3 @@
+file                                                                   format  type   num_seqs      sum_len  min_len  avg_len  max_len
+/home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/nonhost_1.fq.gz  FASTQ   DNA   1,199,736  179,960,400      150      150      150
+/home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/nonhost_2.fq.gz  FASTQ   DNA   1,199,736  179,960,400      150      150      150

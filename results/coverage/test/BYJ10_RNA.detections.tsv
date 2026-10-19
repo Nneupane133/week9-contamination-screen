@@ -1,0 +1,15 @@
+sample	source	role	ref_len	contigs	reads_mq20	reads_mq0	read_fraction	depth	breadth	mapq_survival	mean_mapq	gini	top1pct_share	bin	rationale
+BYJ10_RNA	Gallus_gallus_GRCg7b	host	1053332251	214	186414	192735	0.93207	0.0229092	0.0100809	0.967204	59.1254	nan	nan	host	reference organism for this library
+BYJ10_RNA	Homo_sapiens	nonhost	3117275501	24	36	347	0.00018	1.28959e-06	7.55467e-07	0.103746	29.3806	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	EAV_HP	nonhost	4302	1	2	8	1e-05	0.069735	0.069735	0.25	59.5	0.930265	0.143333	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Aeromonas_hydrophila	nonhost	4744448	1	0	3	0	0	0	0	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Avian_leukosis_virus	nonhost	14775	2	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Avian_orthoreovirus	nonhost	23494	10	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Chlamydia_abortus	nonhost	1174186	2	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Chlamydia_psittaci	nonhost	1179220	2	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Escherichia_coli_K12	nonhost	4641652	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	PhiX174	nonhost	5386	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Rous_sarcoma_virus	nonhost	9392	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Saccharomyces_cerevisiae	nonhost	12157105	17	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	UniVec_Core	nonhost	688131	3155	0	563	0	0	0	0	nan	0.999952	1	noise	fewer than 50 uniquely-mapped reads
+BYJ10_RNA	Y73_sarcoma_virus	nonhost	5188	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads

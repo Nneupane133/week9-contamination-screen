@@ -1,0 +1,11 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+rnaspades_NODE_311_length_2708_cov_106.040607_g84_i3	2708	No terminal repeats	4	11	0.9908	NA	0	1.7183	NA	NA
+rnaspades_NODE_240_length_3026_cov_17.773789_g142_i0	3026	No terminal repeats	1	11	0.9904	NA	0	1.7183	NA	NA
+rnaspades_NODE_349_length_2536_cov_16.698741_g206_i0	2536	No terminal repeats	2	11	0.9784	NA	0	1.7183	NA	NA
+megahit_k141_2681	2717	No terminal repeats	1	11	0.9117	NA	0	1.3774	NA	NA
+rnaspades_NODE_172_length_3386_cov_23.347721_g96_i0	3386	No terminal repeats	3	11	0.9036	NA	0	1.7183	NA	NA
+rnaspades_NODE_243_length_3003_cov_17.469966_g145_i0	3003	No terminal repeats	3	11	0.8840	NA	0	0.8646	NA	NA
+rnaspades_NODE_337_length_2582_cov_35.438023_g185_i1	2582	No terminal repeats	1	11	0.8303	NA	0	1.3774	NA	NA
+megahit_k141_610	2630	No terminal repeats	1	11	0.8197	NA	0	1.3774	NA	NA
+rnaspades_NODE_31_length_5828_cov_28.441355_g15_i0	5828	No terminal repeats	1	11	0.8197	NA	0	1.3774	NA	NA
+rnaspades_NODE_32_length_5789_cov_28.583100_g15_i1	5789	No terminal repeats	1	11	0.8076	NA	0	1.3774	NA	NA

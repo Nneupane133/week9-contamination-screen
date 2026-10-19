@@ -1,0 +1,31 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.8.0). This will classify the input  │
+│  sequences into chromosome, plasmid, or virus based on the nucleotide        │
+│  sequence.                                                                   │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_nn_classification                                                    │
+│    ├── contigs.pooled_nn_classification.json (execution parameters)          │
+│    ├── contigs.pooled_encoded_sequences (directory containing encoded        │
+│    │   sequence data)                                                        │
+│    ├── contigs.pooled_nn_classification.tsv (contig classification: tabular  │
+│    │   format)                                                               │
+│    └── contigs.pooled_nn_classification.npz (contig classification: binary   │
+│        format)                                                               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:02:06] Executing genomad nn-classification.                                 
+[13:02:06] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_nn_classification directory.                                 
+[13:02:06] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_nn_classification/contigs.pooled_encoded_sequences directory.
+[13:02:11] Encoded sequence data written to contigs.pooled_encoded_sequences.   
+[13:02:43] Sequences classified.                                                
+[13:02:43] Sequence classification in binary format written to                  
+           contigs.pooled_nn_classification.npz.                                
+[13:02:43] Deleting encoded sequence data.                                      
+[13:02:45] Sequence classification in tabular format written to                 
+           contigs.pooled_nn_classification.tsv.                                
+[13:02:45] geNomad nn-classification finished!                                  

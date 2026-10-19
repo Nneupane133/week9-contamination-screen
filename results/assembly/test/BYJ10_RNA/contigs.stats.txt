@@ -1,0 +1,2 @@
+file                                                                     format  type  num_seqs  sum_len  min_len  avg_len  max_len
+/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/contigs.pooled.fa  FASTA   DNA        252  128,968      300    511.8    1,634

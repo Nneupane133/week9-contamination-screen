@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_53_1                                  -          K00413               -            1.5e-71  235.8   0.0   1.6e-71  235.7   0.0   1.0   1   0   0   1   1   1   1 # 2 # 589 # -1 # ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.701
+rnaspades_NODE_36_length_565_cov_1.317073_g34_i0_1 -          K00413               -            3.9e-59  194.9   0.1     4e-59  194.8   0.1   1.0   1   0   0   1   1   1   1 # 3 # 563 # -1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.715
+megahit_k141_21_1    -          K00529               -             0.0001   15.5   0.0   0.00014   15.0   0.0   1.1   1   0   0   1   1   1   1 # 3 # 599 # 1 # ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.635
+rnaspades_NODE_30_length_608_cov_1.433645_g28_i0_1 -          K00720               -                6.1   -0.8  19.4      0.57    2.6   7.7   2.1   1   1   1   2   2   2   0 # 3 # 608 # -1 # ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.629
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          K00728               -                4.1   -0.8  19.7       4.5   -1.0  19.7   1.0   1   0   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+rnaspades_NODE_165_length_303_cov_1.004348_g163_i0_1 -          K00851               -             0.0036   10.9   0.0    0.0037   10.8   0.0   1.1   1   0   0   1   1   1   1 # 2 # 301 # 1 # ID=4_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.650
+megahit_k141_36_1                                    -          K00955               -            5.5e-33  108.3   1.8   6.3e-32  104.8   1.8   1.9   1   1   0   1   1   1   1 # 2 # 520 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.686
+rnaspades_NODE_170_length_300_cov_2.114537_g168_i0_1 -          K00955               -            8.6e-31  101.1   0.3   9.5e-31  100.9   0.3   1.0   1   0   0   1   1   1   1 # 2 # 298 # 1 # ID=9_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.667
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/24.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/24.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/24.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:03 2026
+# [ok]

@@ -1,0 +1,8 @@
+[M::mm_idx_gen::59.588*1.75] collected minimizers
+[M::mm_idx_gen::65.547*2.75] sorted minimizers
+[M::main::106.537*2.01] loaded/built the index for 6092 target sequence(s)
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 6092
+[M::mm_idx_stat::113.041*1.95] distinct minimizers: 516312318 (92.92% are singletons); average occurrences: 1.470; average spacing: 5.982
+[M::main] Version: 2.14-r883
+[M::main] CMD: minimap2 -x sr -t 24 -I 12G -d /home/aubnxn001/week9/references/combined/SRR39197041_DNA.sr.mmi /home/aubnxn001/week9/references/combined/SRR39197041_DNA.fna
+[M::main] Real time: 114.366 sec; CPU: 222.129 sec; Peak RSS: 24.435 GB

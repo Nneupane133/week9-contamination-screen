@@ -1,0 +1,7 @@
+{
+    "module": "marker_classification",
+    "input": "contigs.pooled.fa",
+    "input_md5": "c00f48b98114cae66c5bcb4df537f072",
+    "start_time": "2026-10-19T13:01:48.188443-05:00",
+    "parameters": {}
+}

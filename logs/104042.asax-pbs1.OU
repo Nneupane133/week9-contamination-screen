@@ -1,0 +1,27 @@
+[12:54:38] BYJ10_RNA: collecting reads that touch any non-host reference
+  2823 read names
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+[12:54:41] BYJ10_RNA: re-mapping that subset with secondary alignments ON
+[12:56:15] BYJ10_RNA: scoring host competition
+UniVec_Core	4584	3984	0.8691
+Homo_sapiens	640	343	0.5359
+EAV_HP	8	6	0.7500
+Aeromonas_hydrophila	3	0	0.0000
+Avian_leukosis_virus	1	1	1.0000
+source	reads	host_competing	host_competing_frac
+	118	0	0.0000
+[12:56:16] SRR39197041_DNA: collecting reads that touch any non-host reference
+  44973 read names
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+[12:56:19] SRR39197041_DNA: re-mapping that subset with secondary alignments ON
+[12:57:39] SRR39197041_DNA: scoring host competition
+UniVec_Core	83138	57302	0.6892
+Lodderomyces_elongisporus	1312	92	0.0701
+Homo_sapiens	552	95	0.1721
+Aspergillus_flavus	75	40	0.5333
+Plasmodium_relictum	60	18	0.3000
+Leishmania_major	34	0	0.0000
+Acinetobacter_schindleri	2	0	0.0000
+source	reads	host_competing	host_competing_frac
+	369	0	0.0000
+[12:57:44] host-competition test complete

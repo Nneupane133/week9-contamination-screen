@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_107_length_360_cov_1.867596_g105_i0_1 -          VOG01832             -               0.57    4.4  12.4       0.2    5.9   3.1   2.2   1   1   1   2   2   2   0 # 3 # 359 # -1 # ID=10_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.387
+megahit_k141_44_1                                  -          VOG01939             -              0.012   10.0  11.2    0.0025   12.2   3.0   2.3   1   1   1   2   2   2   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          VOG01939             -              0.016    9.6  11.4    0.0033   11.8   3.3   2.5   1   1   1   2   2   2   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+rnaspades_NODE_107_length_360_cov_1.867596_g105_i0_1 -          VOG02036             -                2.7    1.8  15.5       4.6    1.0  15.5   1.4   1   1   0   1   1   1   0 # 3 # 359 # -1 # ID=10_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.387
+megahit_k141_44_1                                    -          VOG02036             -                3.8    1.3  20.7       5.6    0.8  20.7   1.4   1   1   0   1   1   1   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_76_length_406_cov_1.624625_g74_i0_1 -          VOG02105             -            0.00036   14.0   0.0    0.0049   10.3   0.0   2.0   2   0   0   2   2   2   2 # 2 # 406 # 1 # ID=11_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.704
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/45.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/45.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/45.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:00 2026
+# [ok]

@@ -1,0 +1,7 @@
+{
+    "module": "aggregated_classification",
+    "input": "contigs.pooled.fa",
+    "input_md5": "c00f48b98114cae66c5bcb4df537f072",
+    "start_time": "2026-10-19T13:02:46.299498-05:00",
+    "parameters": {}
+}

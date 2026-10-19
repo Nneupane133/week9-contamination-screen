@@ -1,0 +1,9 @@
+  combined reference already built: /home/aubnxn001/week9/references/combined/BYJ10_RNA.fna
+[12:51:49] samtools stats/coverage BYJ10_RNA
+[12:51:52] per-base depth for non-host references, BYJ10_RNA
+[12:51:53] BYJ10_RNA done
+  combined reference already built: /home/aubnxn001/week9/references/combined/SRR39197041_DNA.fna
+[12:51:53] samtools stats/coverage SRR39197041_DNA
+[12:51:57] per-base depth for non-host references, SRR39197041_DNA
+[12:51:57] SRR39197041_DNA done
+[12:51:57] competitive mapping test complete

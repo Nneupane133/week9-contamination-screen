@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -N w9_map
 #PBS -q large
-#PBS -l select=1:ncpus=32:mem=120gb
+#PBS -l select=1:ncpus=24:mem=64gb
 #PBS -l walltime=24:00:00
 #PBS -j oe
 #PBS -o /home/aubnxn001/week9/logs/
@@ -118,8 +118,8 @@ map_one () {
   # Unfiltered and MAPQ>=20 coverage, so the report can show how much of a
   # detection survives the uniqueness filter -- that difference is itself
   # diagnostic (a database-error hit loses almost everything at MAPQ>=20).
-  samtools coverage               "$BAM" > "$OUT/${SAMP}.coverage.mq0.tsv"
-  samtools coverage --min-MQ 20   "$BAM" > "$OUT/${SAMP}.coverage.mq20.tsv"
+  samtools coverage --ff UNMAP,SECONDARY,QCFAIL,DUP,SUPPLEMENTARY               "$BAM" > "$OUT/${SAMP}.coverage.mq0.tsv"
+  samtools coverage --ff UNMAP,SECONDARY,QCFAIL,DUP,SUPPLEMENTARY --min-MQ 20   "$BAM" > "$OUT/${SAMP}.coverage.mq20.tsv"
 
   # Per-base depth for the non-host references only (host is multi-Gb).
   echo "[$(date +%T)] per-base depth for non-host references, $SAMP"
@@ -129,7 +129,10 @@ map_one () {
   awk -F'\t' '$1!="*" && $1 !~ /^(Gallus_gallus_GRCg7b|Aedes_aegypti_AaegL5|Homo_sapiens)::/ {print $1"\t0\t"$2}' \
       "$OUT/${SAMP}.idxstats.tsv" > "$OUT/${SAMP}.small_refs.bed"
   if [ -s "$OUT/${SAMP}.small_refs.bed" ]; then
-    samtools depth -a -Q 20 -@ 8 -b "$OUT/${SAMP}.small_refs.bed" "$BAM" \
+    # Emit only COVERED positions (no -a). The zero-coverage positions are
+    # recovered analytically in step 5 from the reference length, which gives
+    # the identical Gini while avoiding a multi-hundred-million-line dump.
+    samtools depth -Q 20 -@ 8 -b "$OUT/${SAMP}.small_refs.bed" "$BAM" \
       | gzip > "$OUT/${SAMP}.depth.nonhost.tsv.gz"
   fi
   echo "[$(date +%T)] $SAMP done"

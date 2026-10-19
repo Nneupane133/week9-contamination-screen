@@ -132,7 +132,7 @@ seqkit stats "$CONTIGS" | tee "$OUT/contigs.stats.txt"
 # ---- 3. virus calling ----------------------------------------------------
 echo "[$(date +%T)] geNomad"
 genomad end-to-end --cleanup --threads "$THREADS" \
-        "$CONTIGS" "$OUT/genomad" "$WK/references/db/genomad_db/genomad_db" \
+        "$CONTIGS" "$OUT/genomad" "$WK/references/db/genomad_db" \
         > "$OUT/genomad.log" 2>&1 || echo "  WARN: geNomad failed"
 
 echo "[$(date +%T)] CheckV"

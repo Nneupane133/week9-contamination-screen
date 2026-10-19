@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_2550_16                                    -          PNP_UDP_1            PF01048.20   2.3e-46  151.4   0.0   2.7e-46  151.2   0.0   1.0   1   0   0   1   1   1   1 # 5093 # 5713 # -1 # ID=2_16;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.638
+rnaspades_NODE_213_length_3160_cov_102.779397_g122_i0_1 -          PNP_UDP_1            PF01048.20   2.3e-46  151.4   0.0   2.7e-46  151.2   0.0   1.0   1   0   0   1   1   1   1 # 2539 # 3159 # -1 # ID=1_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.638
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_2 -          Ribosomal_S6e        PF01092.19     0.018    8.5   4.8      0.07    6.6   0.8   2.6   2   1   0   2   2   2   0 # 2948 # 3625 # 1 # ID=1_2;partial=00;start_type=ATG;rbs_motif=GGGG;rbs_spacer=6bp;genetic_code=11;gc_cont=0.634
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/11.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/11.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/11.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:51 2026
+# [ok]

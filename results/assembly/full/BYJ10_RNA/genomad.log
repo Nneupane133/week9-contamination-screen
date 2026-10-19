@@ -1,0 +1,183 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.8.0). This will perform gene calling in the  │
+│  input sequences and annotate the predicted proteins with geNomad's          │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_annotate                                                             │
+│    ├── contigs.pooled_annotate.json (execution parameters)                   │
+│    ├── contigs.pooled_genes.tsv (gene annotation data)                       │
+│    ├── contigs.pooled_taxonomy.tsv (taxonomic assignment)                    │
+│    ├── contigs.pooled_mmseqs2.tsv (MMseqs2 output file)                      │
+│    └── contigs.pooled_proteins.faa (protein FASTA file)                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:00:34] Executing genomad annotate.                                          
+[13:00:34] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_annotate directory.                                          
+[13:00:49] Proteins predicted with pyrodigal-gv were written to                 
+           contigs.pooled_proteins.faa.                                         
+[13:01:37] Proteins annotated with MMseqs2 and geNomad database (v1.7) were     
+           written to contigs.pooled_mmseqs2.tsv.                               
+[13:01:37] Deleting contigs.pooled_mmseqs2.                                     
+[13:01:39] Gene data was written to contigs.pooled_genes.tsv.                   
+[13:01:39] Taxonomic assignment data was written to contigs.pooled_taxonomy.tsv.
+[13:01:39] geNomad annotate finished!                                           
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.8.0). This will find putative         │
+│  proviral regions within the input sequences.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_find_proviruses                                                      │
+│    ├── contigs.pooled_find_proviruses.json (execution parameters)            │
+│    ├── contigs.pooled_provirus.tsv (provirus data)                           │
+│    ├── contigs.pooled_provirus.fna (provirus nucleotide sequences)           │
+│    ├── contigs.pooled_provirus_proteins.faa (provirus protein sequences)     │
+│    ├── contigs.pooled_provirus_genes.tsv (provirus gene annotation data)     │
+│    ├── contigs.pooled_provirus_taxonomy.tsv (provirus taxonomic assignment)  │
+│    ├── contigs.pooled_provirus_mmseqs2.tsv (MMseqs2 output file)             │
+│    └── contigs.pooled_provirus_aragorn.tsv (Aragorn output file)             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:01:39] Executing genomad find-proviruses.                                   
+[13:01:39] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_find_proviruses directory.                                   
+[13:01:46] Integrases identified with MMseqs2 and geNomad database (v1.7) were  
+           written to contigs.pooled_provirus_mmseqs2.tsv.                      
+[13:01:46] Deleting contigs.pooled_provirus_mmseqs2.                            
+[13:01:46] Deleting contigs.pooled_provirus_mmseqs2_input.faa.                  
+[13:01:46] tRNAs identified with Aragorn were written to                        
+           contigs.pooled_provirus_aragorn.tsv.                                 
+[13:01:46] Deleting contigs.pooled_provirus_aragorn_input.fna.                  
+[13:01:47] Provirus regions identified.                                         
+[13:01:47] Provirus data was written to contigs.pooled_provirus.tsv.            
+[13:01:47] Provirus nucleotide sequences were written to                        
+           contigs.pooled_provirus.fna.                                         
+[13:01:47] Provirus protein sequences were written to                           
+           contigs.pooled_provirus_proteins.faa.                                
+[13:01:47] Provirus gene data was written to contigs.pooled_provirus_genes.tsv. 
+[13:01:47] Taxonomic assignment data was written to                             
+           contigs.pooled_provirus_taxonomy.tsv.                                
+[13:01:47] geNomad find-proviruses finished!                                    
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.8.0). This will classify the    │
+│  input sequences into chromosome, plasmid, or virus based on the presence    │
+│  of geNomad markers and other gene-related features.                         │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_marker_classification                                                │
+│    ├── contigs.pooled_marker_classification.json (execution parameters)      │
+│    ├── contigs.pooled_features.tsv (sequence feature data: tabular format)   │
+│    ├── contigs.pooled_features.npz (sequence feature data: binary format)    │
+│    ├── contigs.pooled_marker_classification.tsv (sequence classification:    │
+│    │   tabular format)                                                       │
+│    └── contigs.pooled_marker_classification.npz (sequence classification:    │
+│        binary format)                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:01:48] Executing genomad marker-classification.                             
+[13:01:48] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_marker_classification directory.                             
+[13:01:49] Sequence features computed.                                          
+[13:01:49] Sequence features in binary format written to                        
+           contigs.pooled_features.npz.                                         
+[13:01:49] Sequence features in tabular format written to                       
+           contigs.pooled_features.tsv.                                         
+[13:01:49] Sequences classified.                                                
+[13:01:49] Sequence classification in binary format written to                  
+           contigs.pooled_marker_classification.npz.                            
+[13:01:49] Sequence classification in tabular format written to                 
+           contigs.pooled_marker_classification.tsv.                            
+[13:01:49] geNomad marker-classification finished!                              
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.8.0). This will classify the input  │
+│  sequences into chromosome, plasmid, or virus based on the nucleotide        │
+│  sequence.                                                                   │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_nn_classification                                                    │
+│    ├── contigs.pooled_nn_classification.json (execution parameters)          │
+│    ├── contigs.pooled_encoded_sequences (directory containing encoded        │
+│    │   sequence data)                                                        │
+│    ├── contigs.pooled_nn_classification.tsv (contig classification: tabular  │
+│    │   format)                                                               │
+│    └── contigs.pooled_nn_classification.npz (contig classification: binary   │
+│        format)                                                               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:02:06] Executing genomad nn-classification.                                 
+[13:02:06] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_nn_classification directory.                                 
+[13:02:06] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_nn_classification/contigs.pooled_encoded_sequences directory.
+[13:02:11] Encoded sequence data written to contigs.pooled_encoded_sequences.   
+
+[13:02:43] Sequences classified.                                                
+[13:02:43] Sequence classification in binary format written to                  
+           contigs.pooled_nn_classification.npz.                                
+[13:02:43] Deleting encoded sequence data.                                      
+[13:02:45] Sequence classification in tabular format written to                 
+           contigs.pooled_nn_classification.tsv.                                
+[13:02:45] geNomad nn-classification finished!                                  
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.8.0). This will aggregate   │
+│  the results of the marker-classification and nn-classification modules to   │
+│  classify the input sequences into chromosome, plasmid, or virus.            │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_aggregated_classification                                            │
+│    ├── contigs.pooled_aggregated_classification.json (execution parameters)  │
+│    ├── contigs.pooled_aggregated_classification.tsv (sequence                │
+│    │   classification: tabular format)                                       │
+│    └── contigs.pooled_aggregated_classification.npz (sequence                │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:02:46] Executing genomad aggregated-classification.                         
+[13:02:46] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_aggregated_classification directory.                         
+[13:02:46] The total marker frequencies of the input sequences were computed.   
+[13:02:46] Sequences classified.                                                
+[13:02:46] Sequence classification in binary format written to                  
+           contigs.pooled_aggregated_classification.npz.                        
+[13:02:46] Sequence classification in tabular format written to                 
+           contigs.pooled_aggregated_classification.tsv.                        
+[13:02:46] geNomad aggregated-classification finished!                          
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.8.0). This will summarize the results across  │
+│  modules into a classification report.                                       │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_summary                                                              │
+│    ├── contigs.pooled_summary.json (execution parameters)                    │
+│    ├── contigs.pooled_virus_summary.tsv (virus classification summary)       │
+│    ├── contigs.pooled_plasmid_summary.tsv (plasmid classification summary)   │
+│    ├── contigs.pooled_virus.fna (virus nucleotide FASTA file)                │
+│    ├── contigs.pooled_plasmid.fna (plasmid nucleotide FASTA file)            │
+│    ├── contigs.pooled_virus_proteins.faa (virus protein FASTA file)          │
+│    ├── contigs.pooled_plasmid_proteins.faa (plasmid protein FASTA file)      │
+│    ├── contigs.pooled_virus_genes.tsv (virus gene annotation data)           │
+│    └── contigs.pooled_plasmid_genes.tsv (plasmid gene annotation data)       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:02:46] Executing genomad summary.                                           
+[13:02:46] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_summary directory.                                           
+[13:02:46] Using scores from aggregated-classification.                         
+[13:02:46] 10 plasmid(s) and 54 virus(es) were identified.                      
+[13:02:46] Nucleotide sequences were written to contigs.pooled_plasmid.fna and  
+           contigs.pooled_virus.fna.                                            
+[13:02:46] Protein sequences were written to contigs.pooled_plasmid_proteins.faa
+           and contigs.pooled_virus_proteins.faa.                               
+[13:02:47] Gene annotation data was written to contigs.pooled_plasmid_genes.tsv 
+           and contigs.pooled_virus_genes.tsv.                                  
+[13:02:47] Summary files were written to contigs.pooled_plasmid_summary.tsv and 
+           contigs.pooled_virus_summary.tsv.                                    
+[13:02:47] geNomad summary finished!                                            

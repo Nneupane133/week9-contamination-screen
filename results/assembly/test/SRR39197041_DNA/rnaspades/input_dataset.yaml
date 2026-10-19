@@ -1,0 +1,7 @@
+- "left reads":
+  - "/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/nonhost_1.fq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/nonhost_2.fq.gz"
+  "type": "paired-end"

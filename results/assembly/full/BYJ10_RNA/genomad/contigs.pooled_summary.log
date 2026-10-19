@@ -1,0 +1,32 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.8.0). This will summarize the results across  │
+│  modules into a classification report.                                       │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_summary                                                              │
+│    ├── contigs.pooled_summary.json (execution parameters)                    │
+│    ├── contigs.pooled_virus_summary.tsv (virus classification summary)       │
+│    ├── contigs.pooled_plasmid_summary.tsv (plasmid classification summary)   │
+│    ├── contigs.pooled_virus.fna (virus nucleotide FASTA file)                │
+│    ├── contigs.pooled_plasmid.fna (plasmid nucleotide FASTA file)            │
+│    ├── contigs.pooled_virus_proteins.faa (virus protein FASTA file)          │
+│    ├── contigs.pooled_plasmid_proteins.faa (plasmid protein FASTA file)      │
+│    ├── contigs.pooled_virus_genes.tsv (virus gene annotation data)           │
+│    └── contigs.pooled_plasmid_genes.tsv (plasmid gene annotation data)       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:02:46] Executing genomad summary.                                           
+[13:02:46] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_summary directory.                                           
+[13:02:46] Using scores from aggregated-classification.                         
+[13:02:46] 10 plasmid(s) and 54 virus(es) were identified.                      
+[13:02:46] Nucleotide sequences were written to contigs.pooled_plasmid.fna and  
+           contigs.pooled_virus.fna.                                            
+[13:02:46] Protein sequences were written to contigs.pooled_plasmid_proteins.faa
+           and contigs.pooled_virus_proteins.faa.                               
+[13:02:47] Gene annotation data was written to contigs.pooled_plasmid_genes.tsv 
+           and contigs.pooled_virus_genes.tsv.                                  
+[13:02:47] Summary files were written to contigs.pooled_plasmid_summary.tsv and 
+           contigs.pooled_virus_summary.tsv.                                    
+[13:02:47] geNomad summary finished!                                            

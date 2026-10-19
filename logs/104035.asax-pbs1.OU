@@ -1,0 +1,50 @@
+[12:39:20] building combined reference for BYJ10_RNA
+  + Gallus_gallus_GRCg7b (host)
+  + Homo_sapiens (decoy)
+  + Escherichia_coli_K12 (decoy)
+  + Saccharomyces_cerevisiae (decoy)
+  + PhiX174 (decoy)
+  + UniVec_Core (decoy)
+  + EAV_HP (candidate)
+  + Avian_leukosis_virus (candidate)
+  + Rous_sarcoma_virus (candidate)
+  + Y73_sarcoma_virus (candidate)
+  + Avian_orthoreovirus (candidate)
+  + Chlamydia_psittaci (candidate)
+  + Chlamydia_abortus (candidate)
+  + Aeromonas_hydrophila (candidate)
+  file                                                     format  type  num_seqs        sum_len  min_len      avg_len      max_len
+  /home/aubnxn001/week9/references/combined/BYJ10_RNA.fna  FASTA   DNA      3,432  4,195,255,031       10  1,222,393.7  248,387,328
+[12:39:58] building minimap2 index for BYJ10_RNA (single part, -I 12G)
+[12:41:42] minimap2 BYJ10_RNA -> BYJ10_RNA.sr.mmi
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+[12:42:28] samtools stats/coverage BYJ10_RNA
+[12:42:31] per-base depth for non-host references, BYJ10_RNA
+[12:44:00] BYJ10_RNA done
+[12:44:00] building combined reference for SRR39197041_DNA
+  + Aedes_aegypti_AaegL5 (host)
+  + Homo_sapiens (decoy)
+  + Escherichia_coli_K12 (decoy)
+  + Saccharomyces_cerevisiae (decoy)
+  + PhiX174 (decoy)
+  + UniVec_Core (decoy)
+  + Plasmodium_relictum (candidate)
+  + Leishmania_major (candidate)
+  + Wolbachia_pipientis (candidate)
+  + Pseudomonas_aeruginosa (candidate)
+  + Acinetobacter_schindleri (candidate)
+  + Achromobacter_xylosoxidans (candidate)
+  + Aspergillus_flavus (candidate)
+  + Lodderomyces_elongisporus (candidate)
+  + Lactobacillus_phage_Semele (candidate)
+  + Cell_fusing_agent_virus (candidate)
+  + Phasi_Charoen_like_virus (candidate)
+  file                                                           format  type  num_seqs        sum_len  min_len    avg_len      max_len
+  /home/aubnxn001/week9/references/combined/SRR39197041_DNA.fna  FASTA   DNA      6,092  4,540,731,618       10  745,359.8  474,425,716
+[12:44:41] building minimap2 index for SRR39197041_DNA (single part, -I 12G)
+[12:46:37] minimap2 SRR39197041_DNA -> SRR39197041_DNA.sr.mmi
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+[12:47:43] samtools stats/coverage SRR39197041_DNA
+[12:47:46] per-base depth for non-host references, SRR39197041_DNA
+[12:49:44] SRR39197041_DNA done
+[12:49:44] competitive mapping test complete

@@ -1,0 +1,57 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.8.0). This will perform gene calling in the  │
+│  input sequences and annotate the predicted proteins with geNomad's          │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/genomad/contigs.po  │
+│    oled_annotate                                                             │
+│    ├── contigs.pooled_annotate.json (execution parameters)                   │
+│    ├── contigs.pooled_genes.tsv (gene annotation data)                       │
+│    ├── contigs.pooled_taxonomy.tsv (taxonomic assignment)                    │
+│    ├── contigs.pooled_mmseqs2.tsv (MMseqs2 output file)                      │
+│    └── contigs.pooled_proteins.faa (protein FASTA file)                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[12:25:56] Executing genomad annotate.                                          
+[12:25:56] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/genomad/contigs
+           .pooled_annotate directory.                                          
+Traceback (most recent call last):
+  File "/home/aubnxn001/week9/envs/w9virus/bin/genomad", line 10, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/rich_click/rich_command.py", line 401, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/click/core.py", line 1631, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/rich_click/rich_command.py", line 215, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/click/core.py", line 2032, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/click/core.py", line 1415, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/click/core.py", line 910, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/genomad/cli.py", line 1269, in end_to_end
+    ctx.invoke(
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/click/core.py", line 910, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/genomad/cli.py", line 447, in annotate
+    genomad.annotate.main(
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/genomad/modules/annotate.py", line 168, in main
+    database_obj = database.Database(database_path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aubnxn001/week9/envs/w9virus/lib/python3.11/site-packages/genomad/database.py", line 10, in __init__
+    with open(database_directory / "version.txt") as fin:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [Errno 20] Not a directory: '/home/aubnxn001/week9/references/db/genomad_db/genomad_db/version.txt'

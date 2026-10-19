@@ -1,0 +1,18 @@
+sample	source	role	ref_len	contigs	reads_mq20	reads_mq0	read_fraction	depth	breadth	mapq_survival	mean_mapq	gini	top1pct_share	bin	rationale
+SRR39197041_DNA	Aedes_aegypti_AaegL5	host	1278732104	2310	86089	167050	0.430445	0.00796318	0.004421	0.515349	52.0542	nan	nan	host	reference organism for this library
+SRR39197041_DNA	UniVec_Core	nonhost	688131	3155	6784	23908	0.03392	0.565032	0.000358943	0.283754	30.8106	0.999893	1	noise	breadth 0.036% below 0.5% of the reference
+SRR39197041_DNA	Homo_sapiens	nonhost	3117275501	24	293	479	0.001465	1.31795e-05	1.01249e-05	0.611691	57.2464	nan	nan	noise	breadth 0.001% below 0.5% of the reference
+SRR39197041_DNA	Lodderomyces_elongisporus	nonhost	16086460	8	56	1237	0.00028	0.000215959	1.22463e-05	0.0452708	44.5893	0.999996	1	noise	breadth 0.001% below 0.5% of the reference
+SRR39197041_DNA	Leishmania_major	nonhost	32855089	36	25	34	0.000125	7.83745e-05	4.85465e-05	0.735294	46.368	0.999959	1	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Aspergillus_flavus	nonhost	37749288	8	7	46	3.5e-05	7.97366e-06	2.35766e-06	0.152174	26.1714	0.999999	1	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Acinetobacter_schindleri	nonhost	3337186	9	2	2	1e-05	6.11294e-05	3.05647e-05	1	55	0.999969	1	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Achromobacter_xylosoxidans	nonhost	6901970	2	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Cell_fusing_agent_virus	nonhost	10682	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Escherichia_coli_K12	nonhost	4641652	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Lactobacillus_phage_Semele	nonhost	139450	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Phasi_Charoen_like_virus	nonhost	12099	3	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	PhiX174	nonhost	5386	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Plasmodium_relictum	nonhost	22607330	514	0	44	0	0	0	0	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Pseudomonas_aeruginosa	nonhost	6264404	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Saccharomyces_cerevisiae	nonhost	12157105	17	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads
+SRR39197041_DNA	Wolbachia_pipientis	nonhost	1267781	1	0	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 uniquely-mapped reads

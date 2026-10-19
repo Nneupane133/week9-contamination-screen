@@ -1,0 +1,31 @@
+Command line: /apps/x86-64/apps/spack_0.19.1/spack/opt/spack/linux-rocky8-zen3/gcc-11.3.0/spades-3.15.5-ye5t6rhcxpegb5wx2qmxkakrugihpdqy/bin/rnaspades.py	-1	/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/nonhost_1.fq.gz	-2	/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/nonhost_2.fq.gz	-o	/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/rnaspades	-t	16	-m	40	
+
+System information:
+  SPAdes version: 3.15.5
+  Python version: 3.11.9
+  OS: Linux-5.14.0-570.58.1.el9_6.x86_64-x86_64-with-glibc2.34
+
+Output dir: /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/rnaspades
+Debug mode is turned OFF
+
+Dataset parameters:
+  RNA-seq mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/nonhost_1.fq.gz']
+      right reads: ['/home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/nonhost_2.fq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/rnaspades/tmp
+  Threads: 16
+  Memory limit (in Gb): 40
+

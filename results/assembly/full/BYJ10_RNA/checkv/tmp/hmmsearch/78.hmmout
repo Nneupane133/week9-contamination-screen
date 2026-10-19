@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_395_length_2351_cov_33.036435_g239_i0_1 -          FAM006017            -                3.6   -0.7  17.5         5   -1.2  17.5   1.2   1   0   0   1   1   1   0 # 3 # 2351 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.703
+megahit_k141_1252_1                                    -          FAM006017            -                6.5   -1.5  18.0         9   -2.0  18.0   1.2   1   0   0   1   1   1   0 # 2 # 2653 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.698
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          FAM006044            -            1.2e-17   57.5   0.0     2e-17   56.8   0.0   1.2   1   0   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+megahit_k141_1349_1  -          FAM006078            -               0.65    0.7  26.4      0.75    0.5  26.4   1.1   1   0   0   1   1   1   0 # 153 # 1064 # 1 # ID=1_1;partial=01;start_type=GTG;rbs_motif=GGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.607
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/78.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/78.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/78.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:54 2026
+# [ok]

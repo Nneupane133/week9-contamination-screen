@@ -1,0 +1,31 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.8.0). This will classify the    │
+│  input sequences into chromosome, plasmid, or virus based on the presence    │
+│  of geNomad markers and other gene-related features.                         │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs.po  │
+│    oled_marker_classification                                                │
+│    ├── contigs.pooled_marker_classification.json (execution parameters)      │
+│    ├── contigs.pooled_features.tsv (sequence feature data: tabular format)   │
+│    ├── contigs.pooled_features.npz (sequence feature data: binary format)    │
+│    ├── contigs.pooled_marker_classification.tsv (sequence classification:    │
+│    │   tabular format)                                                       │
+│    └── contigs.pooled_marker_classification.npz (sequence classification:    │
+│        binary format)                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[13:01:48] Executing genomad marker-classification.                             
+[13:01:48] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/genomad/contigs
+           .pooled_marker_classification directory.                             
+[13:01:49] Sequence features computed.                                          
+[13:01:49] Sequence features in binary format written to                        
+           contigs.pooled_features.npz.                                         
+[13:01:49] Sequence features in tabular format written to                       
+           contigs.pooled_features.tsv.                                         
+[13:01:49] Sequences classified.                                                
+[13:01:49] Sequence classification in binary format written to                  
+           contigs.pooled_marker_classification.npz.                            
+[13:01:49] Sequence classification in tabular format written to                 
+           contigs.pooled_marker_classification.tsv.                            
+[13:01:49] geNomad marker-classification finished!                              

@@ -1,0 +1,10 @@
+[M::mm_idx_gen::34.420*1.48] collected minimizers
+[M::mm_idx_gen::35.856*1.95] sorted minimizers
+[M::main::35.871*1.95] loaded/built the index for 36258 target sequence(s)
+[M::mm_mapopt_update::35.872*1.95] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 36258
+[M::mm_idx_stat::37.218*1.92] distinct minimizers: 112839027 (80.02% are singletons); average occurrences: 2.038; average spacing: 5.995
+[M::worker_pipeline::50.678*5.16] mapped 200000 sequences
+[M::main] Version: 2.14-r883
+[M::main] CMD: minimap2 -ax sr -t 16 -I 12G --secondary=no /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/hostdepl.fna /home/aubnxn001/week9/data/test_subsample/SRR39197041_test_1.fq.gz /home/aubnxn001/week9/data/test_subsample/SRR39197041_test_2.fq.gz
+[M::main] Real time: 50.954 sec; CPU: 261.983 sec; Peak RSS: 8.038 GB

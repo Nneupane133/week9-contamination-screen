@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          VOG00285             -            1.8e-06   20.4   0.0   3.5e-06   19.5   0.0   1.3   1   1   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+rnaspades_NODE_50_length_5243_cov_10.763443_g26_i0_5 -          VOG00343             -             0.0028    9.8   0.3    0.0028    9.8   0.3   1.0   1   0   0   1   1   1   1 # 1411 # 1641 # 1 # ID=2_5;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.550
+rnaspades_NODE_562_length_1924_cov_16.714749_g342_i0_2 -          VOG00406             -              0.026    6.8  13.7     0.026    6.8  13.7   1.0   1   0   0   1   1   1   0 # 1209 # 1361 # 1 # ID=2_2;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.654
+rnaspades_NODE_23_length_6139_cov_9.892351_g11_i0_1 -          VOG00428             -            5.3e-05   16.8   0.1   0.00013   15.6   0.1   1.7   1   0   0   1   1   1   1 # 115 # 2484 # -1 # ID=1_1;partial=00;start_type=GTG;rbs_motif=GGGGG;rbs_spacer=8bp;genetic_code=11;gc_cont=0.707
+rnaspades_NODE_375_length_2431_cov_39.424936_g225_i0_1 -          VOG00432             -             0.0033   10.7   4.7    0.0076    9.5   4.7   1.7   1   1   0   1   1   1   1 # 65 # 622 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.573
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/40.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/40.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/40.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]

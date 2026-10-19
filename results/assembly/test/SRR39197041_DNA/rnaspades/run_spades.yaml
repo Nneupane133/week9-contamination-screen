@@ -1,0 +1,89 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K49
+  args:
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K49/configs/config.info
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K49/configs/mda_mode.info
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K49/configs/rna_mode.info
+  config_dir: K49
+  del_after: []
+  output_files: []
+  path: /apps/x86-64/apps/spack_0.19.1/spack/opt/spack/linux-rocky8-zen3/gcc-11.3.0/spades-3.15.5-ye5t6rhcxpegb5wx2qmxkakrugihpdqy/bin/spades-core
+  short_name: k49
+- STAGE: K73
+  args:
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/configs/config.info
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/configs/mda_mode.info
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/configs/rna_mode.info
+  config_dir: K73
+  del_after: []
+  output_files: []
+  path: /apps/x86-64/apps/spack_0.19.1/spack/opt/spack/linux-rocky8-zen3/gcc-11.3.0/spades-3.15.5-ye5t6rhcxpegb5wx2qmxkakrugihpdqy/bin/spades-core
+  short_name: k73
+- STAGE: Copy files
+  args:
+  - /apps/x86-64/apps/spack_0.19.1/spack/opt/spack/linux-rocky8-zen3/gcc-11.3.0/spades-3.15.5-ye5t6rhcxpegb5wx2qmxkakrugihpdqy/share/spades/spades_pipeline/scripts/copy_files.py
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/before_rr.fasta
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/before_rr.fasta
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/assembly_graph_after_simplification.gfa
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/assembly_graph_after_simplification.gfa
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/transcripts.fasta
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/transcripts.fasta
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/transcripts.paths
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/transcripts.paths
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/assembly_graph_with_scaffolds.gfa
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/assembly_graph_with_scaffolds.gfa
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/assembly_graph.fastg
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/assembly_graph.fastg
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/hard_filtered_final_paths.fasta
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/hard_filtered_transcripts.fasta
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/K73/soft_filtered_final_paths.fasta
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/soft_filtered_transcripts.fasta
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_e0d0mk42
+  output_files: []
+  path: /home/aubnxn001/week9/envs/w9virus/bin/python
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /apps/x86-64/apps/spack_0.19.1/spack/opt/spack/linux-rocky8-zen3/gcc-11.3.0/spades-3.15.5-ye5t6rhcxpegb5wx2qmxkakrugihpdqy/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/scaffolds.fasta
+  - --misc_dir
+  - /home/aubnxn001/week9/results/assembly/test/SRR39197041_DNA/rnaspades/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /home/aubnxn001/week9/envs/w9virus/bin/python
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: terminate

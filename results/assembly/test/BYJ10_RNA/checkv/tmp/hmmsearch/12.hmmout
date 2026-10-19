@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_59_1                                 -          SdrD_B               PF17210.3     0.0012   13.1   0.0    0.0019   12.5   0.0   1.3   1   0   0   1   1   1   1 # 2 # 673 # 1 # ID=9_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.622
+rnaspades_NODE_11_length_865_cov_4.521465_g9_i0_1 -          SdrD_B               PF17210.3     0.0012   13.1   0.0     0.002   12.5   0.0   1.3   1   0   0   1   1   1   1 # 188 # 865 # -1 # ID=10_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.625
+rnaspades_NODE_121_length_343_cov_2.429630_g119_i0_1 -          Sensor               PF13796.6    0.00098   13.3   0.1    0.0012   13.0   0.1   1.1   1   0   0   1   1   1   1 # 3 # 341 # 1 # ID=8_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.684
+megahit_k141_70_1                                    -          SlyX                 PF04102.12   0.00027   15.7   0.3   0.00027   15.7   0.3   1.0   1   0   0   1   1   1   1 # 245 # 331 # 1 # ID=6_1;partial=01;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.540
+rnaspades_NODE_107_length_360_cov_1.867596_g105_i0_1 -          SlyX                 PF04102.12     0.042    8.6  13.3      0.02    9.7   2.2   2.2   2   0   0   2   2   2   0 # 3 # 359 # -1 # ID=10_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.387
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/12.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/12.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/12.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:00 2026
+# [ok]

@@ -1,0 +1,1 @@
+prodigal-gv  -m -p meta -i /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins/13.fna -a /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins/13.faa 1> /dev/null 2> /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins/13.log

@@ -1,0 +1,15 @@
+sample	source	role	ref_len	contigs	measured_at	reads_mq20	reads_mq0	read_fraction	depth	breadth	mapq_survival	host_competing	mean_mapq	gini	top1pct_share	bin	rationale
+BYJ10_RNA	Gallus_gallus_GRCg7b	host	1053332251	214	mq20	79175062	81702378	0.934713	9.73505	0.182622	0.969067	nan	59.1735	nan	nan	host	reference organism for this library
+BYJ10_RNA	Homo_sapiens	nonhost	3117275501	24	mq20	17941	147354	0.000211805	0.000698581	4.45604e-05	0.121754	nan	32.351	nan	nan	noise	breadth 0.004% below 0.5% of the reference
+BYJ10_RNA	EAV_HP	nonhost	4302	1	mq20	467	3069	5.51324e-06	16.0921	0.949791	0.152167	nan	39.4	0.523523	0.0550117	noise	only 15% of reads survive MAPQ>=20 and they are not host-competing; alignments are ambiguous with a non-host reference
+BYJ10_RNA	Y73_sarcoma_virus	nonhost	5188	1	mq20	380	576	4.48615e-06	10.8269	0.342136	0.659722	nan	49.1	0.748023	0.0573009	consequential	read fraction 0.000%, depth 10.83x, breadth 34.2%
+BYJ10_RNA	UniVec_Core	nonhost	688131	3155	mq20	295	195081	3.48267e-06	0.0161975	0.000196184	0.00151219	nan	22.3386	0.999951	1	noise	breadth 0.020% below 0.5% of the reference
+BYJ10_RNA	Escherichia_coli_K12	nonhost	4641652	1	mq20	6	263	7.08339e-08	0.000175584	0.000124309	0.0228137	nan	41.2	0.99988	1	noise	fewer than 50 mapped reads
+BYJ10_RNA	Aeromonas_hydrophila	nonhost	4744448	1	mq20	2	433	2.36113e-08	2.5925e-05	1.32787e-05	0.00461894	nan	33.5	0.999987	1	noise	fewer than 50 mapped reads
+BYJ10_RNA	Saccharomyces_cerevisiae	nonhost	12157105	17	mq20	1	116	1.18056e-08	1.15159e-05	1.15159e-05	0.00862069	nan	23	0.999982	1	noise	fewer than 50 mapped reads
+BYJ10_RNA	Avian_leukosis_virus	nonhost	14775	2	mq20	0	7	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+BYJ10_RNA	Avian_orthoreovirus	nonhost	23494	10	mq20	0	0	0	0	0	nan	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+BYJ10_RNA	Chlamydia_abortus	nonhost	1174186	2	mq20	0	1	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+BYJ10_RNA	Chlamydia_psittaci	nonhost	1179220	2	mq20	0	3	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+BYJ10_RNA	PhiX174	nonhost	5386	1	mq20	0	0	0	0	0	nan	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+BYJ10_RNA	Rous_sarcoma_virus	nonhost	9392	1	mq20	0	15	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads

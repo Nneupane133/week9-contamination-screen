@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_107_length_360_cov_1.867596_g105_i0_1 -          Exonuc_VII_L         PF02601.15    0.0088    9.7  10.5    0.0099    9.5  10.5   1.0   1   0   0   1   1   1   1 # 3 # 359 # -1 # ID=10_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.387
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1   -          Exonuc_VII_L         PF02601.15      0.14    5.7  22.9      0.68    3.5  22.9   1.8   1   1   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+megahit_k141_44_1                                    -          Exonuc_VII_L         PF02601.15      0.24    4.9  22.2      0.62    3.6  22.2   1.6   1   1   0   1   1   1   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_107_length_360_cov_1.867596_g105_i0_1 -          FapA                 PF03961.13     0.077    5.6  12.6      0.14    4.7  12.6   1.5   1   1   0   1   1   1   0 # 3 # 359 # -1 # ID=10_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.387
+megahit_k141_44_1                                    -          FapA                 PF03961.13      0.12    5.0  18.3      0.13    4.8  18.3   1.2   1   0   0   1   1   1   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1   -          FapA                 PF03961.13      0.97    2.0  22.2       1.5    1.3  22.1   1.5   1   1   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+rnaspades_NODE_172_length_300_cov_1.017621_g170_i0_1 -          FlgN                 PF05130.12   0.00012   16.7   1.7   0.00015   16.3   1.7   1.1   1   0   0   1   1   1   1 # 1 # 300 # 1 # ID=11_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.680
+rnaspades_NODE_161_length_306_cov_2.489270_g159_i0_1 -          Glycos_transf_2      PF00535.26   1.3e-08   28.9   0.0   1.3e-08   28.9   0.0   1.0   1   0   0   1   1   1   1 # 1 # 306 # -1 # ID=16_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.683
+rnaspades_NODE_113_length_353_cov_2.189286_g111_i0_1 -          Glycos_transf_2      PF00535.26    0.0024   11.8   0.0    0.0025   11.7   0.0   1.1   1   0   0   1   1   1   1 # 1 # 351 # 1 # ID=16_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.692
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/7.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/7.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/7.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:01 2026
+# [ok]

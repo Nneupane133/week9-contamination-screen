@@ -1,0 +1,28 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_18_length_756_cov_3.045388_g16_i0_1 -          K19695               -            0.00028   14.5   1.6     0.015    8.8   0.1   3.4   2   2   1   3   3   3   1 # 35 # 667 # 1 # ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.611
+megahit_k141_16_1                                  -          K19695               -            0.00031   14.3   1.6     0.017    8.7   0.1   3.3   2   2   1   3   3   3   1 # 30 # 680 # -1 # ID=11_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.619
+megahit_k141_37_1                                    -          K19737               -            6.7e-18   58.1   0.0   7.4e-18   58.0   0.0   1.0   1   0   0   1   1   1   1 # 2 # 448 # 1 # ID=8_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.564
+rnaspades_NODE_66_length_450_cov_2.419098_g64_i0_1   -          K19737               -            6.7e-18   58.1   0.0   7.4e-18   58.0   0.0   1.0   1   0   0   1   1   1   1 # 2 # 448 # 1 # ID=1_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.564
+rnaspades_NODE_135_length_329_cov_2.105469_g133_i0_1 -          K19737               -            0.00021   13.4   0.0   0.00022   13.4   0.0   1.0   1   0   0   1   1   1   1 # 2 # 328 # -1 # ID=6_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.572
+rnaspades_NODE_141_length_323_cov_1.060000_g139_i0_1 -          K20053               -            1.1e-10   34.2  12.2   1.5e-10   33.7  12.2   1.2   1   0   0   1   1   1   1 # 1 # 321 # 1 # ID=12_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.688
+rnaspades_NODE_136_length_328_cov_1.780392_g134_i0_1 -          K20053               -            6.9e-08   24.9   0.0   6.9e-08   24.9   0.0   1.0   1   0   0   1   1   1   1 # 3 # 326 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.670
+rnaspades_NODE_102_length_365_cov_2.109589_g100_i0_1 -          K20851               -            1.5e-06   19.6  32.7   5.2e-05   14.5  13.7   2.0   1   1   1   2   2   2   2 # 2 # 364 # 1 # ID=5_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.642
+rnaspades_NODE_141_length_323_cov_1.060000_g139_i0_1 -          K20994               -            2.3e-08   26.7  14.2   2.9e-08   26.4  14.2   1.0   1   0   0   1   1   1   1 # 1 # 321 # 1 # ID=12_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.688
+megahit_k141_12_2    -          K21075               -                4.4   -1.7  20.1       5.4   -2.1  20.1   1.0   1   0   0   1   1   1   0 # 237 # 1286 # 1 # ID=2_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.611
+megahit_k141_21_1                                  -          K21147               -            4.6e-28   92.2   0.0   5.4e-28   91.9   0.0   1.0   1   0   0   1   1   1   1 # 3 # 599 # 1 # ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.635
+rnaspades_NODE_62_length_465_cov_2.859694_g60_i0_1 -          K21147               -            3.2e-16   53.0   0.0   3.8e-16   52.8   0.0   1.0   1   0   0   1   1   1   1 # 3 # 464 # 1 # ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.639
+megahit_k141_37_1                                  -          K21170               -            8.8e-12   38.6   0.0   1.1e-11   38.3   0.0   1.0   1   0   0   1   1   1   1 # 2 # 448 # 1 # ID=8_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.564
+rnaspades_NODE_66_length_450_cov_2.419098_g64_i0_1 -          K21170               -            8.8e-12   38.6   0.0   1.1e-11   38.3   0.0   1.0   1   0   0   1   1   1   1 # 2 # 448 # 1 # ID=1_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.564
+rnaspades_NODE_150_length_313_cov_3.070833_g148_i0_1 -          K21421               -             0.0065    9.0   2.4    0.0077    8.8   2.4   1.0   1   0   0   1   1   1   1 # 66 # 311 # 1 # ID=5_1;partial=01;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.626
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/37.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/37.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/37.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:01 2026
+# [ok]

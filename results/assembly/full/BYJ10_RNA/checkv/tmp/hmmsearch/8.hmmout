@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_260_length_2912_cov_133.317013_g154_i0_1 -          Hist_deacetyl        PF00850.19  7.9e-100  327.7   0.0   1.9e-82  270.6   0.0   2.8   2   1   1   3   3   3   2 # 304 # 2910 # 1 # ID=2_1;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.725
+rnaspades_NODE_267_length_2878_cov_234.684492_g36_i1_1 -          KH_1                 PF00013.29   1.7e-09   30.9   1.1   3.8e-09   29.8   1.1   1.6   1   1   0   1   1   1   1 # 241 # 2157 # -1 # ID=3_1;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.696
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/8.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/hmmsearch/8.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/8.hmm /home/aubnxn001/week9/results/assembly/full/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 13:02:52 2026
+# [ok]

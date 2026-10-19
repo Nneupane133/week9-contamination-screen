@@ -1,0 +1,18 @@
+#                                                                                       --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                   accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                         -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+megahit_k141_28_1    -          3300002026@MIS_10000705@MIS_1000070538 -                3.4    0.7  14.5       3.8    0.5  14.5   1.1   1   0   0   1   1   1   0 # 3 # 437 # -1 # ID=10_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.690
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          7000000005@SRS022536_LANL_scaffold_58447@SRS022536_LANL_scaffold_58447_gene_133984 -                3.8   -0.4  11.6       4.2   -0.6  11.6   1.1   1   0   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+rnaspades_NODE_148_length_316_cov_1.267490_g146_i0_1 -          7000000411@SRS042984_LANL_scaffold_86725@SRS042984_LANL_scaffold_86725_gene_122212 -                0.6    2.1  12.0      0.69    1.9  12.0   1.0   1   0   0   1   1   1   0 # 1 # 315 # 1 # ID=3_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.679
+rnaspades_NODE_77_length_404_cov_2.791541_g75_i0_1 -          7000000505@SRS016039_WUGC_scaffold_3469@SRS016039_WUGC_scaffold_3469_gene_3513 -              0.063    4.7   6.1     0.068    4.5   6.1   1.0   1   0   0   1   1   1   0 # 1 # 402 # 1 # ID=12_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.711
+rnaspades_NODE_161_length_306_cov_2.489270_g159_i0_1 -          ADO98161@GU071098    -            0.00043   13.8   0.0   0.00052   13.5   0.0   1.1   1   0   0   1   1   1   1 # 1 # 306 # -1 # ID=16_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.683
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/67.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/67.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/67.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:04 2026
+# [ok]

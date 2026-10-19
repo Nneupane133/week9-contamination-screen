@@ -1,0 +1,8 @@
+[M::main::43.947*0.99] loaded/built the index for 6092 target sequence(s)
+[M::mm_mapopt_update::43.947*0.99] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 6092
+[M::mm_idx_stat::52.285*0.99] distinct minimizers: 516312318 (92.92% are singletons); average occurrences: 1.470; average spacing: 5.982
+[M::worker_pipeline::62.965*4.37] mapped 200000 sequences
+[M::main] Version: 2.14-r883
+[M::main] CMD: minimap2 -ax sr -t 24 -I 12G --secondary=no /home/aubnxn001/week9/references/combined/SRR39197041_DNA.sr.mmi /home/aubnxn001/week9/data/test_subsample/SRR39197041_test_1.fq.gz /home/aubnxn001/week9/data/test_subsample/SRR39197041_test_2.fq.gz
+[M::main] Real time: 65.211 sec; CPU: 277.218 sec; Peak RSS: 21.280 GB

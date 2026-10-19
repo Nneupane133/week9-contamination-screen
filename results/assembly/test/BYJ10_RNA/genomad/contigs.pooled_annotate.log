@@ -1,0 +1,18 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.8.0). This will perform gene calling in the  │
+│  input sequences and annotate the predicted proteins with geNomad's          │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/genomad/contigs.po  │
+│    oled_annotate                                                             │
+│    ├── contigs.pooled_annotate.json (execution parameters)                   │
+│    ├── contigs.pooled_genes.tsv (gene annotation data)                       │
+│    ├── contigs.pooled_taxonomy.tsv (taxonomic assignment)                    │
+│    ├── contigs.pooled_mmseqs2.tsv (MMseqs2 output file)                      │
+│    └── contigs.pooled_proteins.faa (protein FASTA file)                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[12:25:56] Executing genomad annotate.                                          
+[12:25:56] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/genomad/contigs
+           .pooled_annotate directory.                                          

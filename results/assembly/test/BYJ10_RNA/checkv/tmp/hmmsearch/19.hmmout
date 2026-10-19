@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_102_length_365_cov_2.109589_g100_i0_1 -          Pfam-B_15978         PB015978        0.37    5.0  26.9       1.5    3.1  11.1   4.0   1   1   1   2   2   2   0 # 2 # 364 # 1 # ID=5_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.642
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          Pfam-B_16574         PB016574         1.4    2.4  15.3       1.6    2.3  15.3   1.0   1   0   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+megahit_k141_43_1                                  -          Pfam-B_16574         PB016574         1.5    2.4  14.3       2.2    1.8  14.3   1.3   1   0   0   1   1   1   0 # 1 # 609 # 1 # ID=12_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.591
+megahit_k141_44_1                                  -          Pfam-B_16574         PB016574         2.1    1.9  14.8       2.4    1.7  14.8   1.0   1   0   0   1   1   1   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_23_length_643_cov_1.792982_g21_i0_1 -          Pfam-B_16574         PB016574         3.7    1.1  17.1       6.5    0.3  17.1   1.4   1   1   0   1   1   1   0 # 1 # 642 # 1 # ID=6_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.589
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          Pfam-B_17180         PB017180         2.4    2.3  16.6         3    2.0  16.6   1.1   1   0   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+megahit_k141_44_1                                  -          Pfam-B_17180         PB017180           5    1.3  16.6       5.7    1.1  16.6   1.1   1   0   0   1   1   1   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          Pfam-B_17299         PB017299        0.34    4.2  11.7      0.42    3.9  11.7   1.1   1   0   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+megahit_k141_44_1                                  -          Pfam-B_17299         PB017299        0.61    3.3  11.9      0.74    3.1  11.9   1.1   1   0   0   1   1   1   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_64_length_462_cov_2.174807_g62_i0_1 -          Pfam-B_17304         PB017304         0.6    3.4  11.2       0.7    3.2  11.2   1.0   1   0   0   1   1   1   0 # 3 # 461 # -1 # ID=15_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.599
+megahit_k141_44_1                                  -          Pfam-B_17304         PB017304        0.96    2.8  11.4       1.1    2.5  11.4   1.0   1   0   0   1   1   1   0 # 2 # 427 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.596
+rnaspades_NODE_23_length_643_cov_1.792982_g21_i0_1 -          Pfam-B_18956         PB018956        0.88    1.7  12.7       1.1    1.4  12.7   1.0   1   0   0   1   1   1   0 # 1 # 642 # 1 # ID=6_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.589
+megahit_k141_43_1                                  -          Pfam-B_18956         PB018956         2.1    0.5  12.8       2.5    0.2  12.8   1.0   1   0   0   1   1   1   0 # 1 # 609 # 1 # ID=12_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.591
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/19.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/19.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/19.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:04 2026
+# [ok]

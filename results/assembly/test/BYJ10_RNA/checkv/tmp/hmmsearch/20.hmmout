@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rnaspades_NODE_107_length_360_cov_1.867596_g105_i0_1 -          TIGR00293            TIGR00293      0.014    9.5  16.0     0.012    9.7   3.2   2.6   1   1   2   3   3   3   0 # 3 # 359 # -1 # ID=10_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.387
+megahit_k141_79_1    -          TIGR00409            TIGR00409       0.02    7.6   9.3     0.033    7.0   1.0   2.0   1   1   1   2   2   2   0 # 2 # 307 # -1 # ID=5_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.585
+megahit_k141_36_1                                    -          TIGR00475            TIGR00475    4.1e-35  115.4   0.6   4.9e-35  115.2   0.6   1.0   1   0   0   1   1   1   1 # 2 # 520 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.686
+rnaspades_NODE_170_length_300_cov_2.114537_g168_i0_1 -          TIGR00475            TIGR00475    9.4e-27   87.8   0.1     1e-26   87.7   0.1   1.0   1   0   0   1   1   1   1 # 2 # 298 # 1 # ID=9_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.667
+megahit_k141_36_1                                    -          TIGR00483            TIGR00483    9.8e-36  117.0   0.6   1.6e-34  113.0   0.6   1.9   1   1   0   1   1   1   1 # 2 # 520 # 1 # ID=2_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.686
+rnaspades_NODE_170_length_300_cov_2.114537_g168_i0_1 -          TIGR00483            TIGR00483    2.8e-30   99.0   0.1   3.1e-30   98.9   0.1   1.0   1   0   0   1   1   1   1 # 2 # 298 # 1 # ID=9_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.667
+rnaspades_NODE_92_length_378_cov_1.508197_g90_i0_1 -          TIGR00493            TIGR00493    5.2e-61  199.7   0.0   5.8e-61  199.6   0.0   1.0   1   0   0   1   1   1   1 # 1 # 378 # 1 # ID=11_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.661
+rnaspades_NODE_94_length_375_cov_1.019868_g92_i0_1 -          TIGR00871            TIGR00871    1.5e-51  169.5   0.0   1.6e-51  169.4   0.0   1.0   1   0   0   1   1   1   1 # 1 # 375 # -1 # ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.643
+rnaspades_NODE_60_length_470_cov_1.551637_g58_i0_1 -          TIGR00885            TIGR00885     0.0011   12.1   0.0    0.0013   11.9   0.0   1.1   1   0   0   1   1   1   1 # 2 # 442 # 1 # ID=11_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.644
+megahit_k141_39_1                                  -          TIGR01017            TIGR01017    5.4e-12   39.8   2.2   5.4e-12   39.8   1.0   1.7   1   1   0   1   1   1   1 # 20 # 604 # 1 # ID=12_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.658
+rnaspades_NODE_29_length_609_cov_7.908582_g27_i0_1 -          TIGR01017            TIGR01017    5.4e-12   39.8   2.2   5.4e-12   39.8   1.0   1.7   1   1   0   1   1   1   1 # 24 # 608 # 1 # ID=12_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.658
+megahit_k141_39_1                                  -          TIGR01018            TIGR01018    5.9e-73  238.2   3.3   6.7e-73  238.0   3.3   1.0   1   0   0   1   1   1   1 # 20 # 604 # 1 # ID=12_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.658
+rnaspades_NODE_29_length_609_cov_7.908582_g27_i0_1 -          TIGR01018            TIGR01018    5.9e-73  238.2   3.3   6.7e-73  238.0   3.3   1.0   1   0   0   1   1   1   1 # 24 # 608 # 1 # ID=12_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.658
+megahit_k141_62_1    -          TIGR01080            TIGR01080     0.0021   12.4   0.1    0.0041   11.5   0.1   1.5   1   0   0   1   1   1   1 # 1 # 801 # 1 # ID=7_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.614
+rnaspades_NODE_165_length_303_cov_1.004348_g163_i0_1 -          TIGR01313            TIGR01313     0.0001   16.1   0.2   0.00019   15.2   0.0   1.5   2   0   0   2   2   2   1 # 2 # 301 # 1 # ID=4_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.650
+rnaspades_NODE_165_length_303_cov_1.004348_g163_i0_1 -          TIGR01351            TIGR01351      0.002   11.8   0.1    0.0027   11.3   0.1   1.2   1   0   0   1   1   1   1 # 2 # 301 # 1 # ID=4_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.650
+megahit_k141_45_1                                   -          TIGR01352            TIGR01352    0.00047   14.5   0.0      0.12    6.8   0.0   2.4   2   0   0   2   2   2   2 # 1 # 666 # 1 # ID=3_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.626
+rnaspades_NODE_17_length_756_cov_10.278184_g15_i0_1 -          TIGR01352            TIGR01352    0.00047   14.5   0.0      0.12    6.8   0.0   2.4   2   0   0   2   2   2   2 # 89 # 754 # -1 # ID=16_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.626
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/20.hmm
+# Target file:     /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa
+# Option settings: hmmsearch -o /dev/null --tblout /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/hmmsearch/20.hmmout --noali -E 10 --cpu 0 /home/aubnxn001/week9/references/db/checkv/checkv-db-v1.5/hmm_db/checkv_hmms/20.hmm /home/aubnxn001/week9/results/assembly/test/BYJ10_RNA/checkv/tmp/proteins.faa 
+# Current dir:     /home/aubnxn001
+# Date:            Mon Oct 19 12:26:01 2026
+# [ok]
