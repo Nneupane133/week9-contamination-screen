@@ -1,4 +1,10 @@
 #!/bin/bash
+#PBS -N w9_sendsketch
+#PBS -q large
+#PBS -l select=1:ncpus=8:mem=24gb
+#PBS -l walltime=08:00:00
+#PBS -j oe
+#PBS -o /home/aubnxn001/week9/logs/
 # ---------------------------------------------------------------------------
 # STEP 1 (screen A): BBTools sendsketch.sh -- fast, database-free taxonomic screen
 #
@@ -24,7 +30,7 @@
 # ---------------------------------------------------------------------------
 set -euo pipefail
 source /home/aubnxn001/week9/scripts/env.sh
-LEVEL=${1:-test}           # test | full
+LEVEL=${LEVEL:-${1:-test}}           # test | full
 OUT=$WK/results/sendsketch/$LEVEL
 mkdir -p "$OUT"
 

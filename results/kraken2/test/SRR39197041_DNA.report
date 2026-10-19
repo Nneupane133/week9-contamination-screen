@@ -1,0 +1,85 @@
+ 99.34	99341	99341	U	0	unclassified
+  0.66	659	498	R	1	root
+  0.16	159	15	R1	131567	  cellular organisms
+  0.14	139	0	R2	2759	    Eukaryota
+  0.11	110	0	R3	33154	      Opisthokonta
+  0.11	108	0	K	33208	        Metazoa
+  0.11	108	0	K1	6072	          Eumetazoa
+  0.11	108	0	K2	33213	            Bilateria
+  0.11	108	0	K3	33511	              Deuterostomia
+  0.11	108	0	P	7711	                Chordata
+  0.11	108	0	P1	89593	                  Craniata
+  0.11	108	0	P2	7742	                    Vertebrata
+  0.11	108	0	P3	7776	                      Gnathostomata
+  0.11	108	0	P4	117570	                        Teleostomi
+  0.11	108	0	P5	117571	                          Euteleostomi
+  0.11	108	0	P6	8287	                            Sarcopterygii
+  0.11	108	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.11	108	0	P8	32523	                                Tetrapoda
+  0.11	108	0	P9	32524	                                  Amniota
+  0.11	108	0	C	40674	                                    Mammalia
+  0.11	108	0	C1	32525	                                      Theria
+  0.11	108	0	C2	9347	                                        Eutheria
+  0.11	108	0	C3	1437010	                                          Boreoeutheria
+  0.11	108	0	C4	314146	                                            Euarchontoglires
+  0.11	108	0	O	9443	                                              Primates
+  0.11	108	0	O1	376913	                                                Haplorrhini
+  0.11	108	0	O2	314293	                                                  Simiiformes
+  0.11	108	0	O3	9526	                                                    Catarrhini
+  0.11	108	0	O4	314295	                                                      Hominoidea
+  0.11	108	0	F	9604	                                                        Hominidae
+  0.11	108	0	F1	207598	                                                          Homininae
+  0.11	108	0	G	9605	                                                            Homo
+  0.11	108	108	S	9606	                                                              Homo sapiens
+  0.00	2	0	K	4751	        Fungi
+  0.00	2	0	K1	451864	          Dikarya
+  0.00	2	0	P	4890	            Ascomycota
+  0.00	2	0	P1	716545	              saccharomyceta
+  0.00	2	0	P2	147537	                Saccharomycotina
+  0.00	2	0	C	3239874	                  Pichiomycetes
+  0.00	2	0	O	2916678	                    Serinales
+  0.00	2	0	F	766764	                      Debaryomycetaceae
+  0.00	2	0	F1	1535325	                        Candida/Lodderomyces clade
+  0.00	2	0	G	36913	                          Lodderomyces
+  0.00	2	2	S	1775926	                            Lodderomyces beijingensis
+  0.02	22	0	R3	2698737	      Sar
+  0.02	22	0	R4	33630	        Alveolata
+  0.02	22	0	P	5794	          Apicomplexa
+  0.02	22	0	C	422676	            Aconoidasida
+  0.02	22	0	O	5819	              Haemosporida
+  0.02	22	0	F	1639119	                Plasmodiidae
+  0.02	22	0	G	5820	                  Plasmodium
+  0.02	22	0	G1	418104	                    Plasmodium (Haemamoeba)
+  0.02	22	22	S	85471	                      Plasmodium relictum
+  0.01	7	0	R3	2611352	      Discoba
+  0.01	7	0	P	33682	        Euglenozoa
+  0.01	7	0	C	5653	          Kinetoplastea
+  0.01	7	0	C1	2704647	            Metakinetoplastina
+  0.01	7	0	O	2704949	              Trypanosomatida
+  0.01	7	0	F	5654	                Trypanosomatidae
+  0.01	7	0	F1	1286322	                  Leishmaniinae
+  0.01	7	0	G	5658	                    Leishmania
+  0.01	7	2	G1	38568	                      Leishmania
+  0.00	3	3	G2	38574	                        Leishmania donovani species complex
+  0.00	2	0	G2	38581	                        Leishmania major species complex
+  0.00	2	0	S	5664	                          Leishmania major
+  0.00	2	2	S1	347515	                            Leishmania major strain Friedlin
+  0.01	5	1	R2	2	    Bacteria
+  0.00	3	0	K	3379134	      Pseudomonadati
+  0.00	3	1	P	1224	        Pseudomonadota
+  0.00	2	0	C	1236	          Gammaproteobacteria
+  0.00	2	0	O	2887326	            Moraxellales
+  0.00	2	0	F	468	              Moraxellaceae
+  0.00	2	1	G	469	                Acinetobacter
+  0.00	1	1	S	108981	                  Acinetobacter schindleri
+  0.00	1	0	K	1783272	      Bacillati
+  0.00	1	1	P	1239	        Bacillota
+  0.00	2	0	R1	10239	  Viruses
+  0.00	2	0	R2	2731341	    Duplodnaviria
+  0.00	2	0	K	2731360	      Heunggongvirae
+  0.00	2	0	P	2731618	        Uroviricota
+  0.00	2	0	C	2731619	          Caudoviricetes
+  0.00	2	0	F	2560065	            Herelleviridae
+  0.00	2	0	G	2732970	              Harbinvirus
+  0.00	2	0	S	2734052	                Harbinvirus semele
+  0.00	2	2	S1	2079433	                  Lactobacillus phage Semele

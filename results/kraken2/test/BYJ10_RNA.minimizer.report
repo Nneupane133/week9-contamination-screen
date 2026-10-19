@@ -1,0 +1,53 @@
+ 99.64	99642	99642	0	0	U	0	unclassified
+  0.36	358	4	27817	7020	R	1	root
+  0.33	334	166	25900	6840	R1	131567	  cellular organisms
+  0.16	164	13	18031	5462	R2	2759	    Eukaryota
+  0.15	151	43	16957	5363	R3	33154	      Opisthokonta
+  0.11	108	0	15072	5107	K	33208	        Metazoa
+  0.11	108	0	15072	5107	K1	6072	          Eumetazoa
+  0.11	108	0	15072	5107	K2	33213	            Bilateria
+  0.11	108	0	15072	5107	K3	33511	              Deuterostomia
+  0.11	108	0	15072	5107	P	7711	                Chordata
+  0.11	108	0	15072	5107	P1	89593	                  Craniata
+  0.11	108	0	15072	5107	P2	7742	                    Vertebrata
+  0.11	108	0	15072	5107	P3	7776	                      Gnathostomata
+  0.11	108	0	15072	5107	P4	117570	                        Teleostomi
+  0.11	108	0	15072	5107	P5	117571	                          Euteleostomi
+  0.11	108	0	15072	5107	P6	8287	                            Sarcopterygii
+  0.11	108	0	15072	5107	P7	1338369	                              Dipnotetrapodomorpha
+  0.11	108	0	15072	5107	P8	32523	                                Tetrapoda
+  0.11	108	0	15072	5107	P9	32524	                                  Amniota
+  0.11	108	0	15072	5107	C	40674	                                    Mammalia
+  0.11	108	0	15072	5107	C1	32525	                                      Theria
+  0.11	108	0	15072	5107	C2	9347	                                        Eutheria
+  0.11	108	0	15072	5107	C3	1437010	                                          Boreoeutheria
+  0.11	108	0	15072	5107	C4	314146	                                            Euarchontoglires
+  0.11	108	0	15072	5107	O	9443	                                              Primates
+  0.11	108	0	15072	5107	O1	376913	                                                Haplorrhini
+  0.11	108	0	15072	5107	O2	314293	                                                  Simiiformes
+  0.11	108	0	15072	5107	O3	9526	                                                    Catarrhini
+  0.11	108	0	15072	5107	O4	314295	                                                      Hominoidea
+  0.11	108	0	15072	5107	F	9604	                                                        Hominidae
+  0.11	108	0	15072	5107	F1	207598	                                                          Homininae
+  0.11	108	0	15072	5107	G	9605	                                                            Homo
+  0.11	108	108	15072	5107	S	9606	                                                              Homo sapiens
+  0.00	4	3	4024	1191	R2	2	    Bacteria
+  0.00	1	0	1821	595	K	3379134	      Pseudomonadati
+  0.00	1	0	1126	425	P	1224	        Pseudomonadota
+  0.00	1	0	376	145	C	28211	          Alphaproteobacteria
+  0.00	1	1	46	21	O	204457	            Sphingomonadales
+  0.02	20	0	329	173	R1	10239	  Viruses
+  0.02	20	0	303	168	R2	2559587	    Riboviria
+  0.02	20	0	299	167	K	2732397	      Pararnavirae
+  0.02	20	0	299	167	P	2732409	        Artverviricota
+  0.02	20	0	299	167	C	2732514	          Revtraviricetes
+  0.02	20	0	299	167	O	2169561	            Ortervirales
+  0.02	20	3	299	167	F	11632	              Retroviridae
+  0.01	12	0	211	111	F1	35276	                unclassified Retroviridae
+  0.01	12	0	211	111	F2	206036	                  Avian retroviruses
+  0.01	12	12	211	111	S	93465	                    Avian endogenous retrovirus EAV-HP
+  0.01	5	0	63	45	F1	327045	                Orthoretrovirinae
+  0.01	5	0	63	45	G	153057	                  Alpharetrovirus
+  0.00	4	3	35	29	G1	353825	                    unclassified Alpharetrovirus
+  0.00	1	1	17	13	S	11867	                      Avian myelocytomatosis virus
+  0.00	1	1	10	5	S	11885	                    Fujinami sarcoma virus
