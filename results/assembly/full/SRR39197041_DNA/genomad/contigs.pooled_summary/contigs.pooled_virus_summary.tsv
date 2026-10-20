@@ -1,0 +1,21 @@
+seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
+rnaspades_NODE_2_length_5459_cov_5.268102_g1_i0	5459	DTR	NA	7	11	0.9826	NA	2	10.3097	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae
+megahit_k141_52513	5527	DTR	NA	8	11	0.9822	NA	2	10.3097	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae
+megahit_k141_21663	608	No terminal repeats	NA	1	11	0.9674	NA	1	1.7183	Viruses;Riboviria;Orthornavirae;Negarnaviricota;Monjiviricetes;Mononegavirales;Rhabdoviridae
+rnaspades_NODE_9437_length_618_cov_3.633028_g9374_i0	618	No terminal repeats	NA	1	11	0.9637	NA	1	1.7183	Viruses;Riboviria;Orthornavirae;Negarnaviricota;Monjiviricetes;Mononegavirales;Rhabdoviridae
+rnaspades_NODE_10474_length_601_cov_3.017045_g10409_i0	601	ITR	NA	1	11	0.9608	NA	1	1.7183	Viruses;Riboviria;Orthornavirae;Negarnaviricota;Monjiviricetes;Mononegavirales;Rhabdoviridae
+megahit_k141_15260	515	No terminal repeats	NA	1	11	0.9571	NA	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Peploviricota;Herviviricetes;Herpesvirales;Herpesviridae
+megahit_k141_9285	921	No terminal repeats	NA	2	11	0.9509	NA	1	1.7183	Viruses;Riboviria;Orthornavirae;Negarnaviricota;Monjiviricetes;Mononegavirales;Rhabdoviridae
+rnaspades_NODE_1708_length_934_cov_3.432056_g1679_i0	934	No terminal repeats	NA	2	11	0.9506	NA	1	1.7183	Viruses;Riboviria;Orthornavirae;Negarnaviricota;Monjiviricetes;Mononegavirales;Rhabdoviridae
+megahit_k141_16336	606	No terminal repeats	NA	1	11	0.9257	NA	1	1.7183	Viruses;Riboviria;Orthornavirae;Negarnaviricota;Monjiviricetes;Mononegavirales;Rhabdoviridae
+rnaspades_NODE_8_length_3648_cov_6.913287_g7_i0	3648	No terminal repeats	NA	2	11	0.8895	NA	0	1.7183	Viruses;Riboviria;Pararnavirae;Artverviricota;Revtraviricetes;Ortervirales;Retroviridae
+megahit_k141_15564	3748	No terminal repeats	NA	2	11	0.8248	NA	0	1.7183	Viruses;Riboviria;Pararnavirae;Artverviricota;Revtraviricetes;Ortervirales;Retroviridae
+rnaspades_NODE_10_length_3440_cov_5.343629_g9_i0	3440	No terminal repeats	NA	3	11	0.7941	NA	0	1.7183	Viruses;Riboviria;Pararnavirae;Artverviricota;Revtraviricetes;Ortervirales;Retroviridae
+megahit_k141_29740	4782	No terminal repeats	NA	1	11	0.7796	NA	0	0.0000	Unclassified
+rnaspades_NODE_13_length_3016_cov_7.299354_g12_i0	3016	No terminal repeats	NA	2	11	0.7734	NA	0	0.0000	Unclassified
+rnaspades_NODE_3_length_4799_cov_7.909649_g2_i0	4799	No terminal repeats	NA	1	11	0.7649	NA	0	0.0000	Unclassified
+megahit_k141_31968	4139	No terminal repeats	NA	2	11	0.7637	NA	0	1.7183	Viruses;Riboviria;Pararnavirae;Artverviricota;Revtraviricetes;Ortervirales;Retroviridae
+rnaspades_NODE_18_length_2646_cov_10.556160_g17_i0	2646	No terminal repeats	NA	1	11	0.7574	NA	0	0.0000	Unclassified
+megahit_k141_41454	5285	No terminal repeats	NA	2	11	0.7276	NA	0	1.7183	Viruses;Riboviria;Pararnavirae;Artverviricota;Revtraviricetes;Ortervirales;Retroviridae
+megahit_k141_37029	3020	No terminal repeats	NA	2	11	0.7203	NA	0	0.0000	Unclassified
+megahit_k141_13362	505	No terminal repeats	NA	2	11	0.7002	NA	1	1.7183	Viruses;Varidnaviria;Bamfordvirae;Nucleocytoviricota;Megaviricetes;Imitervirales;Mimiviridae

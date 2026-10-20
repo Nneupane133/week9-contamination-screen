@@ -1,0 +1,25 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.8.0). This will aggregate   │
+│  the results of the marker-classification and nn-classification modules to   │
+│  classify the input sequences into chromosome, plasmid, or virus.            │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/SRR39197041_DNA/genomad/cont  │
+│    igs.pooled_aggregated_classification                                      │
+│    ├── contigs.pooled_aggregated_classification.json (execution parameters)  │
+│    ├── contigs.pooled_aggregated_classification.tsv (sequence                │
+│    │   classification: tabular format)                                       │
+│    └── contigs.pooled_aggregated_classification.npz (sequence                │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[14:58:50] Executing genomad aggregated-classification.                         
+[14:58:50] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/SRR39197041_DNA/genomad/c
+           ontigs.pooled_aggregated_classification directory.                   
+[14:58:51] The total marker frequencies of the input sequences were computed.   
+[14:58:51] Sequences classified.                                                
+[14:58:51] Sequence classification in binary format written to                  
+           contigs.pooled_aggregated_classification.npz.                        
+[14:58:52] Sequence classification in tabular format written to                 
+           contigs.pooled_aggregated_classification.tsv.                        
+[14:58:52] geNomad aggregated-classification finished!                          

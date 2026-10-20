@@ -1,0 +1,18 @@
+sample	source	role	ref_len	contigs	measured_at	reads_mq20	reads_mq0	read_fraction	depth	breadth	mapq_survival	host_competing	mean_mapq	gini	top1pct_share	bin	rationale
+SRR39197041_DNA	Aedes_aegypti_AaegL5	host	1278732104	2310	mq20	52500827	101358685	0.434651	4.87171	0.643239	0.517971	nan	52.0093	nan	nan	host	reference organism for this library
+SRR39197041_DNA	UniVec_Core	nonhost	688131	3155	mq20	4077476	14373385	0.0337571	87.384	0.00233822	0.283682	nan	30.5231	0.999893	1	noise	breadth 0.234% below 0.5% of the reference
+SRR39197041_DNA	Homo_sapiens	nonhost	3117275501	24	mq20	161729	260620	0.00133894	0.00733958	0.00473248	0.620555	nan	57.3833	nan	nan	noise	breadth 0.473% below 0.5% of the reference
+SRR39197041_DNA	Lodderomyces_elongisporus	nonhost	16086460	8	mq20	26496	714810	0.000219359	0.100328	0.000218507	0.0370672	nan	41.9751	0.999996	1	noise	breadth 0.022% below 0.5% of the reference
+SRR39197041_DNA	Leishmania_major	nonhost	32855089	36	mq20	11537	19760	9.5514e-05	0.0390801	0.0213336	0.583856	nan	48.3718	0.982112	0.568408	noise	coverage concentrated in a spike (Gini 0.98, breadth 2.13%)
+SRR39197041_DNA	Aspergillus_flavus	nonhost	37749288	8	mq20	3595	21265	2.97628e-05	0.00410742	6.60145e-05	0.169057	nan	26.0422	0.999998	1	noise	breadth 0.007% below 0.5% of the reference
+SRR39197041_DNA	Plasmodium_relictum	nonhost	22607330	514	mq20	1109	29218	9.18133e-06	0.00402852	0.000327947	0.0379561	nan	39.1569	0.999907	1	noise	breadth 0.033% below 0.5% of the reference
+SRR39197041_DNA	Acinetobacter_schindleri	nonhost	3337186	9	mq20	200	267	1.65579e-06	0.00695676	0.00374207	0.749064	nan	52.7535	0.996964	1	noise	breadth 0.374% below 0.5% of the reference
+SRR39197041_DNA	Cell_fusing_agent_virus	nonhost	10682	1	mq20	60	66	4.96736e-07	0.572458	0.0651563	0.909091	nan	46	0.955158	0.262951	trace	credible but low: read fraction 0.0000%, depth 0.572x, breadth 6.52%
+SRR39197041_DNA	Saccharomyces_cerevisiae	nonhost	12157105	17	mq20	7	702	5.79525e-08	3.463e-05	1.96593e-05	0.00997151	nan	35.1429	0.999982	1	noise	fewer than 50 mapped reads
+SRR39197041_DNA	Escherichia_coli_K12	nonhost	4641652	1	mq20	4	7	3.31157e-08	8.87615e-05	4.43808e-05	0.571429	nan	33.2	0.999956	1	noise	fewer than 50 mapped reads
+SRR39197041_DNA	Achromobacter_xylosoxidans	nonhost	6901970	2	mq20	0	4	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+SRR39197041_DNA	Lactobacillus_phage_Semele	nonhost	139450	1	mq20	0	0	0	0	0	nan	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+SRR39197041_DNA	Phasi_Charoen_like_virus	nonhost	12099	3	mq20	0	0	0	0	0	nan	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+SRR39197041_DNA	PhiX174	nonhost	5386	1	mq20	0	316	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+SRR39197041_DNA	Pseudomonas_aeruginosa	nonhost	6264404	1	mq20	0	5	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads
+SRR39197041_DNA	Wolbachia_pipientis	nonhost	1267781	1	mq20	0	4	0	0	0	0	nan	nan	nan	nan	noise	fewer than 50 mapped reads

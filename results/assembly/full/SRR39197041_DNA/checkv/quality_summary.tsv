@@ -1,0 +1,21 @@
+contig_id	contig_length	provirus	proviral_length	gene_count	viral_genes	host_genes	checkv_quality	miuvig_quality	completeness	completeness_method	contamination	kmer_freq	warnings
+megahit_k141_13362	505	No	NA	2	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+megahit_k141_15564	3748	No	NA	2	1	0	Medium-quality	Genome-fragment	61.89	AAI-based (medium-confidence)	0.0	1.0	
+megahit_k141_9285	921	No	NA	2	2	0	Low-quality	Genome-fragment	6.38	HMM-based (lower-bound)	0.0	1.0	
+megahit_k141_16336	606	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+megahit_k141_31968	4139	No	NA	2	2	0	Medium-quality	Genome-fragment	68.63	AAI-based (medium-confidence)	0.0	1.0	
+megahit_k141_29740	4782	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+megahit_k141_21663	608	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+megahit_k141_41454	5285	No	NA	2	1	0	Medium-quality	Genome-fragment	89.31	AAI-based (medium-confidence)	0.0	1.02	
+megahit_k141_37029	3020	No	NA	2	1	0	Low-quality	Genome-fragment	28.16	HMM-based (lower-bound)	0.0	1.0	
+megahit_k141_15260	515	No	NA	1	1	0	Low-quality	Genome-fragment	0.22	HMM-based (lower-bound)	0.0	1.0	
+megahit_k141_52513	5527	No	NA	8	8	0	Complete	High-quality	100.0	DTR (high-confidence)	0.0	1.02	
+rnaspades_NODE_2_length_5459_cov_5.268102_g1_i0	5459	No	NA	7	7	0	Complete	High-quality	100.0	DTR (high-confidence)	0.0	1.01	
+rnaspades_NODE_3_length_4799_cov_7.909649_g2_i0	4799	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+rnaspades_NODE_8_length_3648_cov_6.913287_g7_i0	3648	No	NA	2	1	0	Medium-quality	Genome-fragment	60.23	AAI-based (medium-confidence)	0.0	1.0	
+rnaspades_NODE_10_length_3440_cov_5.343629_g9_i0	3440	No	NA	3	1	0	Low-quality	Genome-fragment	32.07	HMM-based (lower-bound)	0.0	1.0	
+rnaspades_NODE_13_length_3016_cov_7.299354_g12_i0	3016	No	NA	2	1	0	Low-quality	Genome-fragment	28.12	HMM-based (lower-bound)	0.0	1.0	
+rnaspades_NODE_18_length_2646_cov_10.556160_g17_i0	2646	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+rnaspades_NODE_1708_length_934_cov_3.432056_g1679_i0	934	No	NA	2	2	0	Low-quality	Genome-fragment	6.47	HMM-based (lower-bound)	0.0	1.0	
+rnaspades_NODE_9437_length_618_cov_3.633028_g9374_i0	618	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+rnaspades_NODE_10474_length_601_cov_3.017045_g10409_i0	601	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.08	no viral genes detected; low-confidence ITR

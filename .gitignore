@@ -36,3 +36,28 @@ results/assembly/**/rnaspades/tmp/
 results/assembly/**/megahit/intermediate_contigs/
 results/assembly/**/genomad/**/*_proteins.faa
 results/assembly/**/genomad/**/*_genes.tsv
+
+# Host-competition (04b) working files: the extracted read names and the
+# re-mapped subset. Regenerable from the competitive BAM in minutes; the
+# host_competition.tsv they feed is tracked.
+results/host_competition/**/*.readnames.txt
+results/host_competition/**/*.nonhost_refs.txt
+results/host_competition/**/*.sub_*.fq
+results/host_competition/**/*.subset.bam*
+results/host_competition/**/*.index.log
+
+# The whole rnaSPAdes working directory: assembly graphs, intermediate and
+# unfiltered FASTAs, k-mer directories. Every contig that matters is already in
+# contigs.pooled.fa, which is tracked, alongside the geNomad/CheckV/DIAMOND
+# summaries built from it. Keep the run log, which is outside this directory.
+results/assembly/**/rnaspades/
+
+# Large/intermediate assembly outputs (DNA contigs file is 96 MB, over GitHub's limit)
+results/assembly/full/SRR39197041_DNA/contigs.pooled.fa
+results/assembly/**/genomad/**/*.npz
+results/assembly/**/genomad/**/*_features.tsv
+results/assembly/**/checkv/tmp/
+# Python cache and PBS job output
+__pycache__/
+logs/*.OU
+logs/*.ER

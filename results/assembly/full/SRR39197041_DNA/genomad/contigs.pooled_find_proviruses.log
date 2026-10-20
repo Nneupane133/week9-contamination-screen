@@ -1,0 +1,22 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.8.0). This will find putative         │
+│  proviral regions within the input sequences.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/SRR39197041_DNA/genomad/cont  │
+│    igs.pooled_find_proviruses                                                │
+│    ├── contigs.pooled_find_proviruses.json (execution parameters)            │
+│    ├── contigs.pooled_provirus.tsv (provirus data)                           │
+│    ├── contigs.pooled_provirus.fna (provirus nucleotide sequences)           │
+│    ├── contigs.pooled_provirus_proteins.faa (provirus protein sequences)     │
+│    ├── contigs.pooled_provirus_genes.tsv (provirus gene annotation data)     │
+│    ├── contigs.pooled_provirus_taxonomy.tsv (provirus taxonomic assignment)  │
+│    ├── contigs.pooled_provirus_mmseqs2.tsv (MMseqs2 output file)             │
+│    └── contigs.pooled_provirus_aragorn.tsv (Aragorn output file)             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[14:45:43] Executing genomad find-proviruses.                                   
+[14:45:43] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/SRR39197041_DNA/genomad/c
+           ontigs.pooled_find_proviruses directory.                             
+[14:45:44] No potential provirus-carrying sequences were identified.            
+[14:45:44] geNomad find-proviruses finished!                                    

@@ -1,0 +1,26 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.8.0). This will perform gene calling in the  │
+│  input sequences and annotate the predicted proteins with geNomad's          │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /home/aubnxn001/week9/results/assembly/full/SRR39197041_DNA/genomad/cont  │
+│    igs.pooled_annotate                                                       │
+│    ├── contigs.pooled_annotate.json (execution parameters)                   │
+│    ├── contigs.pooled_genes.tsv (gene annotation data)                       │
+│    ├── contigs.pooled_taxonomy.tsv (taxonomic assignment)                    │
+│    ├── contigs.pooled_mmseqs2.tsv (MMseqs2 output file)                      │
+│    └── contigs.pooled_proteins.faa (protein FASTA file)                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[14:41:51] Executing genomad annotate.                                          
+[14:41:51] Creating the                                                         
+           /home/aubnxn001/week9/results/assembly/full/SRR39197041_DNA/genomad/c
+           ontigs.pooled_annotate directory.                                    
+[14:44:47] Proteins predicted with pyrodigal-gv were written to                 
+           contigs.pooled_proteins.faa.                                         
+[14:45:39] Proteins annotated with MMseqs2 and geNomad database (v1.7) were     
+           written to contigs.pooled_mmseqs2.tsv.                               
+[14:45:39] Deleting contigs.pooled_mmseqs2.                                     
+[14:45:41] Gene data was written to contigs.pooled_genes.tsv.                   
+[14:45:41] Taxonomic assignment data was written to contigs.pooled_taxonomy.tsv.
+[14:45:41] geNomad annotate finished!                                           

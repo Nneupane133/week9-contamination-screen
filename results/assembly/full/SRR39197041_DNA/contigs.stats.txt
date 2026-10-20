@@ -1,0 +1,2 @@
+file                                                                           format  type  num_seqs     sum_len  min_len  avg_len  max_len
+/home/aubnxn001/week9/results/assembly/full/SRR39197041_DNA/contigs.pooled.fa  FASTA   DNA    146,161  73,102,091      300    500.1   16,697

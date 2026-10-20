@@ -1,0 +1,14 @@
+[M::main::31.849*0.99] loaded/built the index for 89053 target sequence(s)
+[M::mm_mapopt_update::31.850*0.99] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 89053
+[M::mm_idx_stat::37.894*0.99] distinct minimizers: 546363687 (93.08% are singletons); average occurrences: 1.402; average spacing: 5.990
+[M::worker_pipeline::44.551*3.15] mapped 333334 sequences
+[M::worker_pipeline::48.525*4.24] mapped 333334 sequences
+[M::worker_pipeline::51.980*4.94] mapped 333334 sequences
+[M::worker_pipeline::55.544*5.41] mapped 333334 sequences
+[M::worker_pipeline::58.540*5.25] mapped 333334 sequences
+[M::worker_pipeline::62.183*4.97] mapped 333334 sequences
+[M::worker_pipeline::62.529*4.95] mapped 39332 sequences
+[M::main] Version: 2.14-r883
+[M::main] CMD: minimap2 -ax sr -t 16 -I 12G -N 10 -p 0.5 --secondary=yes /home/aubnxn001/week9/references/combined/BYJ10_RNA.competition.mmi /home/aubnxn001/week9/results/host_competition/full/BYJ10_RNA.sub_1.fq /home/aubnxn001/week9/results/host_competition/full/BYJ10_RNA.sub_2.fq
+[M::main] Real time: 64.828 sec; CPU: 311.610 sec; Peak RSS: 21.539 GB

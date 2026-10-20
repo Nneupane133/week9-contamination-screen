@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "contigs.pooled.fa",
+    "input_md5": "44388a22ad40d76d08f86525c5d567c1",
+    "start_time": "2026-10-19T14:41:51.435880-05:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}
